@@ -1,0 +1,2540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RP Group Inmobiliaria · Compraventa y alquiler de pisos y casas en València</title>
+<meta name="description" content="RP Group Inmobiliaria en Avinguda Rambleta 56, Catarroja. Compraventa, alquileres, valoraciones gratuitas, asesoramiento personalizado y gestión integral. De lunes a viernes, de 9:30 a 14:00 y de 16:00 a 20:00.">
+<meta name="theme-color" content="#33352A">
+<meta name="robots" content="index,follow">
+<!-- La dirección de la web sale de legal_datos.json ("dominio"). No se escribe aquí. -->
+<link rel="canonical" href="https://rpgroupinmobiliaria.es/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RP Group Inmobiliaria">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://rpgroupinmobiliaria.es/">
+<meta property="og:title" content="RP Group Inmobiliaria · València">
+<meta property="og:description" content="Compraventa, alquiler y valoración gratuita de tu vivienda en València y l'Horta Sud. Oficina a pie de calle en Avinguda Rambleta 56, Catarroja.">
+<!-- og.jpg va junto al HTML: las redes sociales no leen imágenes incrustadas en la página -->
+<meta property="og:image" content="https://rpgroupinmobiliaria.es/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Oficina de RP Group Inmobiliaria en València">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo.jpg">
+<link rel="preload" as="image" href="img/portada.jpg" imagesrcset="img/portada-movil.jpg 750w, img/portada.jpg 1300w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fuentes/manrope.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fuentes/fraunces.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fuentes/montserrat.woff2" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"RealEstateAgent",
+  "@id":"https://rpgroupinmobiliaria.es/#rpgroup",
+  "name":"RP Group Inmobiliaria",
+  "description":"Agencia inmobiliaria en València: compraventa, alquileres, valoraciones gratuitas, asesoramiento personalizado, gestión integral y broker inmobiliario.",
+  "url":"https://rpgroupinmobiliaria.es/",
+  "logo":"https://rpgroupinmobiliaria.es/og.jpg",
+  "image":"https://rpgroupinmobiliaria.es/og.jpg",
+  "telephone":"+34666752862",
+  "email":"info@rpgroupinmobiliaria.com",
+  "address":{"@type":"PostalAddress","streetAddress":"Avinguda Rambleta 56","addressLocality":"Catarroja","addressRegion":"València","postalCode":"46470","addressCountry":"ES"},
+  "areaServed":["Catarroja","València","Picanya","Silla","Godelleta","Sagunt","Algemesí"],
+  "priceRange":"€€",
+  "currenciesAccepted":"EUR",
+  "sameAs":["https://www.instagram.com/rpgroup.inmobiliaria/"],
+  "hasMap":"https://www.google.com/maps/dir/?api=1&destination=Avinguda%20Rambleta%2056%2C%2046470%20Catarroja",
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:30","closes":"14:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"16:00","closes":"20:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"00:00","closes":"00:00"}
+  ]
+}
+</script>
+<noscript><style>
+  /* sin JavaScript, que no se quede nada invisible */
+  .reveal,.reveal-x,.reveal-s{opacity:1 !important;transform:none !important}
+  .mask{clip-path:none !important}
+  #boot{display:none}
+  .cw-nav,.cw-dots,.fav{display:none}
+</style></noscript>
+
+<style>
+/* ============================================================
+   TIPOGRAFÍAS
+   Van dentro de la propia web (no se pide nada a Google), así que
+   no se envía la IP de quien visita la página a ningún tercero.
+   Fraunces, Manrope y Montserrat: licencia SIL Open Font License.
+   ============================================================ */
+@font-face{font-family:"Fraunces";font-style:normal;font-weight:300 700;font-display:swap;src:url(fuentes/fraunces.woff2) format("woff2")}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:300 800;font-display:swap;src:url(fuentes/manrope.woff2) format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:600;font-display:swap;src:url(fuentes/montserrat.woff2) format("woff2")}
+
+/* ============================================================
+   RP GROUP INMOBILIARIA
+   Paleta tomada del logotipo: verde salvia #85846F + crema #D1CDCA
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --maxw:1360px;
+
+  --green:#85846F;
+  --green-600:#73735F;
+  --green-700:#62624F;
+  --green-900:#33352A;
+  --ink:#232419;
+  --clay:#9A6440;
+  --clay-700:#8A5836;
+
+  --cream:#FBF9F5;
+  --beige:#F1ECE2;
+  --beige-2:#E6DFD1;
+  --sand:#D9D1C0;
+
+  --white:#fff;
+  --muted:#6E6C5F;
+  --line:rgba(35,36,25,.12);
+  --line-2:rgba(35,36,25,.07);
+
+  --shadow-s:0 1px 2px rgba(35,36,25,.05), 0 2px 8px rgba(35,36,25,.05);
+  --shadow-m:0 4px 12px rgba(35,36,25,.06), 0 14px 34px rgba(35,36,25,.09);
+  --shadow-l:0 10px 24px rgba(35,36,25,.10), 0 30px 70px rgba(35,36,25,.16);
+
+  --font-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --font-body:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+  --r-s:10px; --r-m:16px; --r-l:24px; --r-xl:34px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --ease-io:cubic-bezier(.65,0,.35,1);
+}
+@media(min-width:1700px){:root{--maxw:1500px}}
+
+.logo-img{background:url(logo.jpg) center/cover no-repeat;border-radius:50%;display:block;flex:none}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--cream);color:var(--ink);
+  font-family:var(--font-body);font-size:17px;line-height:1.65;font-weight:400;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-wrap:break-word;
+}
+body.is-locked{overflow:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+input,select,textarea{font:inherit;color:inherit}
+::selection{background:var(--green);color:#fff}
+:focus-visible{outline:2.5px solid var(--green-700);outline-offset:3px;border-radius:6px}
+
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;line-height:1.08;letter-spacing:-.018em;margin:0}
+h1{font-size:clamp(2.9rem,7.4vw,5.6rem);font-weight:400}
+h2{font-size:clamp(2rem,4.2vw,3.35rem)}
+h3{font-size:clamp(1.15rem,1.7vw,1.42rem);line-height:1.25}
+p{margin:0 0 1.1em}
+.wrap{width:min(100% - 40px,var(--maxw));margin-inline:auto}
+@media(max-width:640px){.wrap{width:min(100% - 28px,var(--maxw))}}
+
+.eyebrow{
+  font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--green-700);display:inline-flex;align-items:center;gap:.6rem;margin:0 0 1.1rem;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
+.eyebrow.on-dark{color:#D7D3BE}
+.lead{font-size:clamp(1.02rem,1.35vw,1.16rem);color:var(--muted);max-width:56ch}
+.serif-i{font-style:italic;font-family:var(--font-display);font-weight:400}
+
+/* ---------- botones ---------- */
+.btn{
+  position:relative;overflow:hidden;isolation:isolate;
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  padding:1rem 1.7rem;border-radius:100px;font-weight:700;font-size:.95rem;
+  transition:transform .45s var(--ease),box-shadow .45s var(--ease),background-color .3s,color .3s,border-color .3s;
+  will-change:transform;text-align:center;
+}
+.btn svg{width:18px;height:18px;flex:none}
+.btn:hover{transform:translateY(-3px)}
+.btn:active{transform:translateY(0) scale(.975);transition-duration:.09s}
+.btn--primary{background:var(--green-700);color:#fff;box-shadow:var(--shadow-m)}
+.btn--primary:hover{background:var(--green-900);box-shadow:var(--shadow-l)}
+.btn--clay{background:var(--clay);color:#fff;box-shadow:var(--shadow-m)}
+.btn--clay:hover{background:var(--clay-700);box-shadow:var(--shadow-l)}
+.btn--ghost{background:rgba(255,255,255,.10);color:#fff;border:1px solid rgba(255,255,255,.42);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.btn--ghost:hover{background:rgba(255,255,255,.2);border-color:#fff}
+.btn--line{background:transparent;color:var(--green-900);border:1.5px solid var(--line)}
+.btn--line:hover{border-color:var(--green-700);background:#fff}
+.btn--wide{width:100%}
+.btn--sm{padding:.72rem 1.25rem;font-size:.86rem}
+
+.ripple{position:absolute;border-radius:50%;transform:scale(0);background:rgba(255,255,255,.42);pointer-events:none;animation:ripple .62s var(--ease-io) forwards;z-index:-1}
+.btn--line .ripple,.btn--ghost .ripple{background:rgba(133,132,111,.28)}
+@keyframes ripple{to{transform:scale(2.6);opacity:0}}
+
+/* ---------- revelados de scroll ---------- */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal-x{opacity:0;transform:translateX(-34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal-x.in{opacity:1;transform:none}
+.reveal-s{opacity:0;transform:scale(.94);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.reveal-s.in{opacity:1;transform:none}
+.mask{clip-path:inset(0 100% 0 0);transition:clip-path 1.15s var(--ease)}
+.mask.in{clip-path:inset(0 0 0 0)}
+
+/* ============================================================
+   PANTALLA DE ENTRADA
+   ============================================================ */
+#boot{
+  position:fixed;inset:0;z-index:2000;background:var(--cream);
+  display:grid;place-items:center;transition:opacity .7s var(--ease),visibility .7s;
+}
+#boot.done{opacity:0;visibility:hidden}
+.boot-in{display:grid;justify-items:center;gap:1.15rem}
+.boot-logo{width:96px;height:96px;box-shadow:var(--shadow-m);animation:bootLogo 1.1s var(--ease) both}
+@keyframes bootLogo{0%{opacity:0;transform:scale(.7) translateY(14px)}100%{opacity:1;transform:none}}
+.boot-name{
+  font-family:var(--font-display);font-size:1.4rem;letter-spacing:.30em;text-transform:uppercase;
+  color:var(--green-900);display:flex;padding-left:.30em;
+}
+.boot-name span{animation:bootChar .55s var(--ease) both}
+@keyframes bootChar{from{opacity:0;transform:translateY(12px) rotate(4deg)}to{opacity:1;transform:none}}
+.boot-bar{width:150px;height:2px;background:var(--sand);border-radius:2px;overflow:hidden}
+.boot-bar i{display:block;height:100%;width:100%;background:var(--green);transform-origin:left;transform:scaleX(0);animation:bootBar 1.25s var(--ease-io) .1s forwards}
+@keyframes bootBar{to{transform:scaleX(1)}}
+
+/* ============================================================
+   CABECERA
+   ============================================================ */
+.nav{
+  position:fixed;inset:0 0 auto;z-index:900;padding:1.15rem 0;border-bottom:1px solid transparent;
+  transition:background-color .45s var(--ease),box-shadow .45s var(--ease),padding .45s var(--ease),border-color .45s;
+}
+.nav.solid{
+  background:rgba(251,249,245,.88);backdrop-filter:blur(16px) saturate(1.5);-webkit-backdrop-filter:blur(16px) saturate(1.5);
+  box-shadow:0 1px 26px rgba(35,36,25,.07);border-bottom-color:var(--line-2);padding:.68rem 0;
+}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.brand{display:flex;align-items:center;gap:.78rem;min-width:0}
+.brand .logo-img{width:48px;height:48px;transition:width .45s var(--ease),height .45s var(--ease);box-shadow:0 2px 10px rgba(35,36,25,.16)}
+.nav.solid .brand .logo-img{width:42px;height:42px}
+.brand-txt{display:grid;line-height:1.05}
+.brand-txt b{font-family:var(--font-display);font-weight:600;font-size:1.16rem;letter-spacing:.12em;color:#fff;transition:color .45s}
+.brand-txt small{font-size:.6rem;letter-spacing:.30em;text-transform:uppercase;color:rgba(255,255,255,.72);transition:color .45s;font-weight:600}
+.nav.solid .brand-txt b{color:var(--green-900)}
+.nav.solid .brand-txt small{color:var(--muted)}
+
+.nav-links{display:flex;align-items:center;gap:.25rem}
+.nav-links a{position:relative;padding:.55rem .9rem;border-radius:100px;font-size:.92rem;font-weight:600;color:rgba(255,255,255,.92);transition:color .3s}
+.nav-links a::after{content:"";position:absolute;left:.9rem;right:.9rem;bottom:.34rem;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .45s var(--ease);border-radius:2px}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1);transform-origin:left}
+.nav.solid .nav-links a{color:var(--ink)}
+.nav-cta{display:flex;align-items:center;gap:.6rem}
+.nav-tel{
+  display:inline-flex;align-items:center;gap:.5rem;padding:.66rem 1.15rem;border-radius:100px;
+  background:var(--green-700);color:#fff;font-weight:700;font-size:.9rem;box-shadow:var(--shadow-s);
+  transition:transform .4s var(--ease),background-color .3s;position:relative;overflow:hidden;isolation:isolate;
+}
+.nav-tel:hover{transform:translateY(-2px);background:var(--green-900)}
+.nav-tel svg{width:16px;height:16px}
+.burger{display:none;width:44px;height:44px;border-radius:50%;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4)}
+.nav.solid .burger{background:var(--beige);border-color:var(--line)}
+.burger i{display:block;width:19px;height:1.8px;background:#fff;border-radius:2px}
+.nav.solid .burger i{background:var(--ink)}
+.burger i+i{margin-top:5px}
+@media(max-width:1040px){.nav-links{display:none}.burger{display:grid}}
+@media(max-width:560px){.nav-tel span{display:none}.nav-tel{padding:.66rem .8rem}}
+
+.drawer{
+  position:fixed;inset:0;z-index:950;background:var(--green-900);
+  display:grid;align-content:center;padding:2rem;
+  clip-path:circle(0% at calc(100% - 46px) 46px);transition:clip-path .75s var(--ease);
+}
+.drawer.open{clip-path:circle(150% at calc(100% - 46px) 46px)}
+.drawer a{
+  font-family:var(--font-display);font-size:clamp(1.9rem,7.5vw,2.7rem);color:#fff;padding:.3rem 0;
+  opacity:0;transform:translateY(20px);transition:opacity .5s var(--ease),transform .5s var(--ease),color .3s;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+.drawer.open a{opacity:1;transform:none}
+.drawer a:hover{color:var(--sand)}
+.dr-foot{margin-top:1.7rem;color:rgba(255,255,255,.68);font-size:.92rem;display:grid;gap:.45rem}
+.dr-foot b{color:#fff}
+.drawer-close{position:absolute;top:24px;right:24px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:#fff;font-size:1.4rem;line-height:1}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero-bg{position:absolute;inset:-8% 0 -8%;z-index:-2;will-change:transform}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 46%;animation:heroZoom 12s var(--ease) both}
+@keyframes heroZoom{from{transform:scale(1.14)}to{transform:scale(1)}}
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:
+    linear-gradient(180deg,rgba(28,30,22,.72) 0%,rgba(28,30,22,.30) 26%,rgba(28,30,22,.42) 55%,rgba(28,30,22,.88) 100%),
+    linear-gradient(100deg,rgba(51,53,42,.62) 0%,rgba(51,53,42,.12) 62%);
+}
+.hero-in{width:min(100% - 40px,var(--maxw));margin-inline:auto;padding:9.5rem 0 3rem;color:#fff}
+@media(max-width:640px){.hero-in{width:min(100% - 28px,var(--maxw));padding-top:7.5rem}}
+.hero-top{max-width:900px}
+.hero h1{color:#fff;text-shadow:0 2px 40px rgba(20,22,16,.35);margin-bottom:.35rem}
+.hero h1 .ln{display:block;overflow:hidden}
+.hero h1 .ln>span{display:block;animation:lineUp 1.05s var(--ease) both}
+.hero h1 .ln.claim{font-size:clamp(1.5rem,3.15vw,2.7rem);line-height:1.26;padding-bottom:.06em;opacity:.93}
+.hero h1 .ln.name{font-family:"Montserrat",var(--font-body);font-weight:600;text-transform:uppercase;letter-spacing:.045em;font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.04;padding-bottom:.04em}
+.hero h1 .ln.name + .ln.claim{margin-top:.4rem}
+@keyframes lineUp{from{transform:translateY(105%)}to{transform:none}}
+.hero-sub{
+  font-size:clamp(1.06rem,1.7vw,1.32rem);color:rgba(255,255,255,.92);max-width:58ch;margin:1.1rem 0 1.9rem;
+  animation:fadeUp .9s var(--ease) .55s both;font-weight:400;
+}
+.hero-sub strong{color:#fff;font-weight:700}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.hero .eyebrow{animation:fadeUp .8s var(--ease) .15s both}
+.hero-btns{display:flex;flex-wrap:wrap;gap:.85rem;animation:fadeUp .9s var(--ease) .7s both}
+
+/* buscador */
+.search{
+  margin-top:2.6rem;background:rgba(251,249,245,.94);backdrop-filter:blur(20px) saturate(1.4);-webkit-backdrop-filter:blur(20px) saturate(1.4);
+  border-radius:var(--r-l);padding:.6rem;box-shadow:var(--shadow-l);color:var(--ink);
+  animation:fadeUp 1s var(--ease) .85s both;border:1px solid rgba(255,255,255,.5);
+}
+.search-tabs{display:flex;gap:.3rem;padding:.35rem .35rem .55rem}
+.stab{
+  padding:.5rem 1.15rem;border-radius:100px;font-size:.88rem;font-weight:700;color:var(--muted);
+  transition:background-color .35s,color .35s;position:relative;overflow:hidden;isolation:isolate;
+}
+.stab.on{background:var(--green-900);color:#fff}
+.search-row{display:grid;grid-template-columns:1.35fr 1fr 1fr auto;gap:.4rem}
+.sfield{position:relative;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-m);padding:.62rem .95rem;transition:border-color .3s,box-shadow .3s}
+.sfield:focus-within{border-color:var(--green);box-shadow:0 0 0 3px rgba(133,132,111,.16)}
+.sfield label{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.06rem}
+.sfield select,.sfield input{
+  width:100%;border:0;background:none;outline:none;font-size:.98rem;font-weight:600;color:var(--ink);
+  padding:0;appearance:none;-webkit-appearance:none;cursor:pointer;
+}
+.sfield::after{content:"";position:absolute;right:1rem;top:58%;width:7px;height:7px;border-right:1.8px solid var(--muted);border-bottom:1.8px solid var(--muted);transform:rotate(45deg) translateY(-50%);pointer-events:none}
+.sfield--txt::after{display:none}
+.sfield--txt input{cursor:text}
+.search .btn{border-radius:var(--r-m);padding-inline:1.9rem}
+@media(max-width:900px){.search-row{grid-template-columns:1fr 1fr}.search .btn{grid-column:1/-1}}
+@media(max-width:460px){.search-row{grid-template-columns:1fr}}
+
+.hero-strip{
+  display:flex;flex-wrap:wrap;gap:1.6rem 2.6rem;margin-top:2.4rem;padding-top:1.5rem;
+  border-top:1px solid rgba(255,255,255,.2);animation:fadeUp 1s var(--ease) 1s both;
+}
+.hs{display:flex;align-items:center;gap:.7rem;color:rgba(255,255,255,.93);font-size:.93rem}
+.hs svg{width:19px;height:19px;flex:none;opacity:.85}
+.hs b{font-weight:700}
+.hs small{display:block;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:700}
+.dot-live{width:8px;height:8px;border-radius:50%;background:#7BC47F;box-shadow:0 0 0 0 rgba(123,196,127,.7);animation:pulse 2.2s infinite}
+.dot-live.off{background:#D08C6A;animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(123,196,127,0)}100%{box-shadow:0 0 0 0 rgba(123,196,127,0)}}
+
+/* ---------- ajustes de móvil del hero ---------- */
+@media(max-width:640px){
+  .hero-in{padding-top:6.6rem;padding-bottom:2.2rem}
+  .hero-bg img{object-position:50% 50%}
+  .hero h1{font-size:2.5rem}
+  .hero h1 .ln.claim{font-size:1.42rem}
+  .hero-sub{font-size:1rem;margin:.9rem 0 1.5rem;max-width:40ch}
+  .hero-btns{gap:.6rem}
+  .hero-btns .btn{width:100%}
+  .search{margin-top:1.7rem}
+  .hero-strip{gap:1rem 1.5rem;margin-top:1.7rem;padding-top:1.2rem}
+  .hs{font-size:.86rem}
+  .hs svg{width:17px;height:17px}
+  .brand-txt b{font-size:1.02rem}
+}
+@media(max-width:359px){
+  .brand-txt{display:none}
+  .brand .logo-img{width:40px;height:40px}
+  .nav-tel{padding:.6rem .7rem}
+  .burger{width:40px;height:40px}
+}
+@media(max-width:380px){
+  .hero h1{font-size:2.25rem}
+  .hero h1 .ln.claim{font-size:1.3rem}
+  .hero-strip{gap:.9rem 1.2rem}
+}
+.scroll-cue{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);z-index:3;display:grid;justify-items:center;gap:.45rem;color:rgba(255,255,255,.7);font-size:.65rem;letter-spacing:.24em;text-transform:uppercase;font-weight:700;animation:fadeUp 1s var(--ease) 1.25s both}
+.scroll-cue i{display:block;width:1px;height:34px;background:linear-gradient(180deg,rgba(255,255,255,.75),transparent);animation:cue 2.1s var(--ease-io) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media(max-width:900px){.scroll-cue{display:none}}
+
+/* ============================================================
+   SECCIONES GENERALES
+   ============================================================ */
+section{position:relative}
+.pad{padding:clamp(4.5rem,9vw,8rem) 0}
+.pad-s{padding:clamp(3rem,5vw,4.5rem) 0}
+.bg-beige{background:var(--beige)}
+.bg-white{background:#fff}
+.sec-head{max-width:66ch;margin-bottom:clamp(2.4rem,4vw,3.6rem)}
+.sec-head.center{margin-inline:auto;text-align:center}
+.sec-head.center .eyebrow{justify-content:center}
+.sec-head h2{margin-bottom:.85rem}
+.sec-head h2 em{font-style:italic;color:var(--green)}
+.head-row{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-bottom:clamp(2.2rem,4vw,3.2rem)}
+.head-row .sec-head{margin-bottom:0}
+
+/* ---------- franja de confianza ---------- */
+.trust{background:var(--green-900);color:#fff}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.13)}
+.trust-item{background:var(--green-900);padding:1.8rem 1.5rem;display:flex;gap:1rem;align-items:flex-start}
+.trust-item svg{width:26px;height:26px;flex:none;color:var(--sand);margin-top:2px}
+.trust-item b{display:block;font-weight:700;font-size:.98rem;margin-bottom:.15rem}
+.trust-item span{font-size:.85rem;color:rgba(255,255,255,.66);line-height:1.5}
+@media(max-width:900px){.trust-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.trust-grid{grid-template-columns:1fr}.trust-item{padding:1.35rem 1.2rem}}
+
+/* ---------- servicios ---------- */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+@media(max-width:980px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.svc-grid{grid-template-columns:1fr}}
+.svc{
+  position:relative;overflow:hidden;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-l);
+  padding:2rem 1.8rem 1.9rem;transition:transform .55s var(--ease),box-shadow .55s var(--ease),border-color .4s;
+}
+.svc::before{content:"";position:absolute;inset:auto auto 0 0;width:100%;height:3px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.svc:hover{transform:translateY(-7px);box-shadow:var(--shadow-l);border-color:transparent}
+.svc:hover::before{transform:scaleX(1)}
+.svc-ic{width:52px;height:52px;border-radius:15px;background:var(--beige);display:grid;place-items:center;color:var(--green-700);margin-bottom:1.25rem;transition:background-color .45s,color .45s,transform .55s var(--ease)}
+.svc:hover .svc-ic{background:var(--green-900);color:#fff;transform:rotate(-6deg) scale(1.06)}
+.svc-ic svg{width:25px;height:25px}
+.svc h3{margin-bottom:.45rem}
+.svc p{color:var(--muted);font-size:.96rem;margin:0}
+.svc-n{position:absolute;top:1.5rem;right:1.7rem;font-family:var(--font-display);font-size:2.6rem;color:var(--beige-2);line-height:1;transition:color .45s}
+.svc:hover .svc-n{color:var(--sand)}
+/* foto de fondo en cada servicio: la tarjeta conserva su tamaño original */
+.svc{background:var(--green-900);border-color:transparent;isolation:isolate}
+.svc-img{position:absolute;inset:0;z-index:-1;overflow:hidden}
+.svc-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease)}
+.svc-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,42,33,.48) 0%,rgba(40,42,33,.76) 42%,rgba(33,35,27,.93) 100%)}
+.svc:hover .svc-img img{transform:scale(1.07)}
+.svc::before{background:var(--sand)}
+.svc h3{color:#fff}
+.svc p{color:rgba(255,255,255,.82)}
+.svc .svc-ic{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.svc:hover .svc-ic{background:#fff;color:var(--green-900)}
+.svc .svc-n{color:rgba(255,255,255,.3)}
+.svc:hover .svc-n{color:var(--sand)}
+
+/* ---------- inmuebles ---------- */
+.tabs{display:inline-flex;gap:.3rem;background:var(--beige);padding:.35rem;border-radius:100px;border:1px solid var(--line-2)}
+.tab{
+  padding:.68rem 1.5rem;border-radius:100px;font-weight:700;font-size:.92rem;color:var(--muted);
+  transition:background-color .4s var(--ease),color .35s,box-shadow .4s;position:relative;overflow:hidden;isolation:isolate;
+}
+.tab.on{background:#fff;color:var(--green-900);box-shadow:var(--shadow-s)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.6rem 0 2.2rem}
+.chip{
+  padding:.5rem 1.05rem;border-radius:100px;font-size:.85rem;font-weight:600;color:var(--muted);
+  border:1px solid var(--line);background:#fff;transition:all .35s var(--ease);position:relative;overflow:hidden;isolation:isolate;
+}
+.chip:hover{border-color:var(--green);color:var(--green-700)}
+.chip.on{background:var(--green-900);color:#fff;border-color:var(--green-900)}
+
+.props{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+@media(max-width:980px){.props{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.props{grid-template-columns:1fr}}
+.prop{
+  background:#fff;border:1px solid var(--line-2);border-radius:var(--r-l);overflow:hidden;cursor:pointer;
+  transition:transform .55s var(--ease),box-shadow .55s var(--ease),opacity .45s,border-color .4s;
+  display:flex;flex-direction:column;text-align:left;
+}
+.prop:hover{transform:translateY(-8px);box-shadow:var(--shadow-l);border-color:transparent}
+.prop.hide{display:none}
+.prop-art{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--beige)}
+.prop-art .cw{position:absolute;inset:0}
+
+/* ---------- favoritos ---------- */
+.fav{
+  position:absolute;top:.75rem;right:.75rem;z-index:4;width:38px;height:38px;border-radius:50%;
+  background:rgba(251,249,245,.92);color:var(--green-900);display:grid;place-items:center;
+  box-shadow:var(--shadow-s);transition:transform .35s var(--ease),background-color .35s,color .35s;
+}
+.fav svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round;transition:fill .3s}
+.fav:hover{transform:scale(1.1);background:#fff}
+.fav:active{transform:scale(.9)}
+.fav[aria-pressed="true"]{background:var(--clay);color:#fff}
+.fav[aria-pressed="true"] svg{fill:currentColor}
+.fav.pop{animation:favPop .45s var(--ease)}
+@keyframes favPop{40%{transform:scale(1.28)}100%{transform:scale(1)}}
+.chip--fav{display:inline-flex;align-items:center;gap:.45rem;margin-left:auto}
+.chip--fav svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.chip--fav[aria-pressed="true"]{background:var(--clay);border-color:var(--clay);color:#fff}
+.chip--fav[aria-pressed="true"] svg{fill:currentColor}
+.chip--fav b{font-weight:800}
+.pv-acts{display:flex;gap:.6rem;flex-wrap:wrap;margin:-.6rem 0 1.6rem}
+.pv-acts .btn svg{width:16px;height:16px}
+.js-fav[aria-pressed="true"]{background:var(--clay);border-color:var(--clay);color:#fff}
+.js-fav[aria-pressed="true"] svg{fill:currentColor}
+.js-fav svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.badges{position:absolute;top:.9rem;left:.9rem;z-index:4;display:flex;gap:.4rem;flex-wrap:wrap;max-width:calc(100% - 4.4rem)}
+.badge{
+  padding:.35rem .8rem;border-radius:100px;
+  font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:var(--green-900);
+  box-shadow:0 2px 10px rgba(35,36,25,.2);
+}
+.badge.rent{background:var(--clay)}
+.badge.tag{background:rgba(251,249,245,.92);color:var(--green-900)}
+.prop-body{padding:1.35rem 1.4rem 1.5rem;display:flex;flex-direction:column;flex:1}
+.prop-price{font-family:var(--font-display);font-size:1.62rem;font-weight:600;color:var(--green-900);line-height:1;margin-bottom:.5rem}
+.prop-price small{font-family:var(--font-body);font-size:.8rem;font-weight:600;color:var(--muted)}
+.prop h3{font-size:1.1rem;margin-bottom:.3rem}
+.prop-loc{display:flex;align-items:center;gap:.4rem;color:var(--muted);font-size:.88rem;margin-bottom:1rem}
+.prop-loc svg{width:14px;height:14px;flex:none}
+.specs{display:flex;gap:1.15rem;padding-top:.95rem;margin-top:auto;border-top:1px solid var(--line-2);color:var(--muted);font-size:.85rem;font-weight:600}
+.specs span{display:flex;align-items:center;gap:.36rem}
+.specs svg{width:15px;height:15px;opacity:.7}
+.prop-more{margin-top:.9rem;font-size:.83rem;font-weight:700;color:var(--green-700);display:flex;align-items:center;gap:.4rem;transition:gap .4s var(--ease)}
+.prop:hover .prop-more{gap:.75rem}
+.no-res{grid-column:1/-1;text-align:center;padding:3.5rem 1rem;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:var(--r-l)}
+.no-res b{display:block;font-family:var(--font-display);font-size:1.35rem;color:var(--ink);margin-bottom:.4rem}
+.props-foot{margin-top:2.4rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:center;text-align:center}
+.demo-note{font-size:.83rem;color:var(--muted);background:var(--beige);border:1px dashed var(--sand);border-radius:100px;padding:.5rem 1.1rem;display:inline-flex;gap:.5rem;align-items:center}
+.demo-note svg{width:15px;height:15px;flex:none;color:var(--green-700)}
+
+/* ---------- banda vender ---------- */
+.sell{position:relative;overflow:hidden;background:var(--green-900);color:#fff;border-radius:var(--r-xl)}
+.sell-grid{display:grid;grid-template-columns:.82fr 1.18fr;align-items:center}
+.sell-txt{padding:clamp(2.2rem,3.8vw,3.4rem)}
+.sell-txt h2{color:#fff;margin-bottom:1rem}
+.sell-txt h2 em{color:var(--sand);font-style:italic}
+.sell-txt p{color:rgba(255,255,255,.78);max-width:46ch}
+.sell-list{list-style:none;padding:0;margin:1.6rem 0 2rem;display:grid;gap:.7rem}
+.sell-list li{display:flex;gap:.75rem;align-items:flex-start;font-size:.96rem;color:rgba(255,255,255,.9)}
+.sell-list svg{width:19px;height:19px;flex:none;color:var(--sand);margin-top:3px}
+.sell-media{position:relative;align-self:stretch;min-height:420px}
+.sell-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 24%}
+.sell-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--green-900) 0%,rgba(51,53,42,.55) 12%,rgba(51,53,42,.12) 30%,transparent 48%)}
+@media(max-width:900px){.sell-grid{grid-template-columns:1fr}.sell-media{min-height:250px;order:-1}.sell-media::after{background:linear-gradient(180deg,rgba(51,53,42,.15),var(--green-900))}}
+.sell-btns{display:flex;flex-wrap:wrap;gap:.8rem}
+
+/* ---------- proceso ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;counter-reset:s}
+@media(max-width:980px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.steps{grid-template-columns:1fr}}
+.step{position:relative;padding:2rem 1.5rem 1.7rem;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-l);transition:transform .55s var(--ease),box-shadow .55s var(--ease)}
+.step:hover{transform:translateY(-6px);box-shadow:var(--shadow-m)}
+.step b{
+  display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--green-900);color:#fff;
+  font-family:var(--font-display);font-size:1.15rem;margin-bottom:1.1rem;
+}
+.step h3{font-size:1.08rem;margin-bottom:.4rem}
+.step p{font-size:.93rem;color:var(--muted);margin:0}
+.step::after{content:"";position:absolute;top:2.35rem;right:-1.2rem;width:1.2rem;height:1px;background:var(--sand)}
+.step:last-child::after{display:none}
+@media(max-width:980px){.step::after{display:none}}
+
+/* ---------- nosotros / galería ---------- */
+.about{display:grid;grid-template-columns:1fr 1.08fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+@media(max-width:900px){.about{grid-template-columns:1fr}}
+.gal{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:.9rem}
+.gal figure{margin:0;position:relative;overflow:hidden;border-radius:var(--r-l);box-shadow:var(--shadow-m);background:var(--beige)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .95s var(--ease)}
+.gal figure:hover img{transform:scale(1.06)}
+.gal figcaption{
+  position:absolute;left:0;right:0;bottom:0;padding:1.6rem .95rem .8rem;color:#fff;font-size:.78rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;background:linear-gradient(transparent,rgba(28,30,22,.72));
+}
+.gal .g1{grid-row:span 2;aspect-ratio:3/4.35}
+.gal .g2,.gal .g3{aspect-ratio:4/3}
+@media(max-width:520px){.gal{grid-template-columns:1fr}.gal .g1{grid-row:auto;aspect-ratio:4/3}}
+/* ---------- Reseñas ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+.rev{background:var(--cream);border:1px solid var(--line);border-radius:var(--r-l);padding:1.7rem 1.6rem 1.5rem;display:flex;flex-direction:column}
+.rev-stars{display:flex;gap:.18rem;margin-bottom:.95rem}
+.rev-stars svg{width:17px;height:17px;fill:var(--green-900)}
+.rev p{margin:0 0 1.3rem;font-size:1.02rem;line-height:1.62;color:var(--ink)}
+.rev p::before{content:"“"}
+.rev p::after{content:"”"}
+.rev footer{margin-top:auto;padding-top:1.1rem;border-top:1px solid var(--line-2)}
+.rev footer b{display:block;font-size:.97rem;letter-spacing:-.01em}
+.rev footer span{display:block;font-size:.83rem;color:var(--muted);margin-top:.15rem}
+.rev-foot{margin:2rem 0 0;text-align:center;font-size:.92rem;color:var(--muted)}
+.rev-foot a{color:var(--green-900);font-weight:600}
+@media(max-width:940px){.revs{grid-template-columns:1fr;max-width:620px;margin-inline:auto}}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-l);overflow:hidden;margin-top:2rem}
+.fact{background:var(--cream);padding:1.4rem 1.3rem}
+.fact b{display:block;font-family:var(--font-display);font-size:clamp(1.6rem,3vw,2.1rem);color:var(--green-900);line-height:1;margin-bottom:.3rem}
+.fact > span{font-size:.82rem;color:var(--muted);font-weight:600;line-height:1.4;display:block}
+.bg-white .fact{background:#fff}
+
+/* ---------- contacto ---------- */
+.contact{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(1.6rem,3.4vw,2.6rem);align-items:start}
+@media(max-width:920px){.contact{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line-2);border-radius:var(--r-l);padding:clamp(1.7rem,3vw,2.4rem);box-shadow:var(--shadow-s)}
+.info-list{display:grid;gap:1.15rem;margin:0;padding:0;list-style:none}
+.info-list li{display:flex;gap:1rem;align-items:flex-start}
+.info-ic{width:44px;height:44px;border-radius:13px;background:var(--beige);display:grid;place-items:center;color:var(--green-700);flex:none}
+.info-ic svg{width:20px;height:20px}
+.info-list b{display:block;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.15rem}
+.info-list p{margin:0;font-weight:600;line-height:1.45;overflow-wrap:anywhere}
+.info-list a{transition:color .3s}
+.info-list a:hover{color:var(--green-700)}
+.hours{list-style:none;margin:0;padding:0;font-size:.94rem}
+.hours li{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px dashed var(--line-2)}
+.hours li:last-child{border:0}
+.hours li span:first-child{color:var(--muted);font-weight:600}
+.hours li b{font-weight:700}
+.hours li.now{color:var(--green-700)}
+.hours li.now span:first-child{color:var(--green-700)}
+.open-pill{display:inline-flex;align-items:center;gap:.55rem;padding:.5rem 1rem;border-radius:100px;background:var(--beige);font-size:.85rem;font-weight:700;margin-bottom:1.1rem}
+
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
+.form-grid .full{grid-column:1/-1}
+@media(max-width:520px){.form-grid{grid-template-columns:1fr}}
+.field > label:not(.consent){display:block;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.35rem}
+.field input,.field select,.field textarea{
+  width:100%;padding:.85rem 1rem;border:1.5px solid var(--line);border-radius:var(--r-m);background:var(--cream);
+  font-size:.96rem;outline:none;transition:border-color .3s,box-shadow .3s,background-color .3s;
+}
+.field textarea{resize:vertical;min-height:112px}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--green);background:#fff;box-shadow:0 0 0 3px rgba(133,132,111,.15)}
+.consent{display:flex;gap:.65rem;align-items:flex-start;font-size:.82rem;color:var(--muted);margin:.3rem 0 .2rem}
+.consent input{margin-top:3px;accent-color:var(--green-700);width:16px;height:16px;flex:none}
+
+.map{position:relative;overflow:hidden;border-radius:var(--r-l);min-height:280px;background:var(--beige-2);border:1px solid var(--line-2)}
+.map-canvas{position:absolute;inset:0;opacity:.85}
+.map-pin{
+  position:absolute;left:50%;top:47%;transform:translate(-50%,-100%);display:grid;justify-items:center;gap:.5rem;text-align:center;
+}
+.map-badge{background:#fff;border-radius:var(--r-m);padding:.7rem 1.05rem;box-shadow:var(--shadow-m);font-size:.85rem;font-weight:700;line-height:1.35;white-space:nowrap}
+.map-badge small{display:block;font-weight:600;color:var(--muted);font-size:.75rem}
+.map-dot{width:16px;height:16px;border-radius:50%;background:var(--green-700);border:3px solid #fff;box-shadow:0 0 0 0 rgba(98,98,79,.5);animation:pulse2 2.4s infinite}
+@keyframes pulse2{70%{box-shadow:0 0 0 16px rgba(98,98,79,0)}100%{box-shadow:0 0 0 0 rgba(98,98,79,0)}}
+.map-cta{position:absolute;right:14px;bottom:14px}
+
+/* ---------- pie ---------- */
+.foot{background:var(--green-900);color:rgba(255,255,255,.72);padding:clamp(3rem,6vw,4.5rem) 0 1.6rem}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:2.4rem}
+@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.foot-grid{grid-template-columns:1fr}}
+.foot h4{color:#fff;font-size:.76rem;letter-spacing:.2em;text-transform:uppercase;font-family:var(--font-body);font-weight:800;margin-bottom:1.1rem}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:.55rem;font-size:.93rem}
+.foot a{transition:color .3s}
+.foot a:hover{color:#fff}
+.foot-brand{display:flex;align-items:center;gap:.85rem;margin-bottom:1.1rem}
+.foot-brand img{width:54px;height:54px;border-radius:50%}
+.foot-brand b{display:block;font-family:var(--font-display);color:#fff;font-size:1.25rem;letter-spacing:.1em}
+.foot-brand small{font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;font-weight:700}
+.foot-bottom{
+  margin-top:3rem;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,.13);
+  display:flex;flex-wrap:wrap;gap:.8rem 1.6rem;justify-content:space-between;font-size:.8rem;
+}
+.foot-bottom p{margin:0}
+
+/* ---------- WhatsApp flotante ---------- */
+.wa{
+  position:fixed;right:20px;bottom:20px;z-index:800;width:60px;height:60px;border-radius:50%;
+  background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 8px 26px rgba(37,211,102,.42);
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease);animation:waIn .6s var(--ease) 1.7s both;
+}
+@keyframes waIn{from{opacity:0;transform:scale(.4) translateY(20px)}to{opacity:1;transform:none}}
+.wa:hover{transform:scale(1.09) rotate(4deg);box-shadow:0 12px 34px rgba(37,211,102,.55)}
+.wa:active{transform:scale(.94)}
+.wa svg{width:31px;height:31px}
+.wa::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25D366;animation:waRing 2.6s var(--ease-io) infinite}
+@keyframes waRing{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.55);opacity:0}}
+.wa-tip{
+  position:absolute;right:72px;top:50%;transform:translateY(-50%) translateX(10px);background:#fff;color:var(--ink);
+  padding:.6rem .95rem;border-radius:100px;font-size:.85rem;font-weight:700;white-space:nowrap;box-shadow:var(--shadow-m);
+  opacity:0;pointer-events:none;transition:opacity .4s var(--ease),transform .4s var(--ease);
+}
+.wa:hover .wa-tip{opacity:1;transform:translateY(-50%) translateX(0)}
+@media(max-width:640px){.wa{width:56px;height:56px;right:16px;bottom:16px}.wa-tip{display:none}}
+
+/* ---------- modales ---------- */
+.ov{position:fixed;inset:0;z-index:1400;display:grid;place-items:center;padding:1.2rem;background:rgba(28,30,22,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;visibility:hidden;transition:opacity .4s var(--ease),visibility .4s}
+.ov.open{opacity:1;visibility:visible}
+.modal{
+  background:var(--cream);border-radius:var(--r-xl);max-width:640px;width:100%;max-height:88svh;overflow:auto;
+  transform:translateY(26px) scale(.97);transition:transform .5s var(--ease);box-shadow:var(--shadow-l);position:relative;
+}
+.ov.open .modal{transform:none}
+.modal--wide{max-width:880px}
+.m-close{position:absolute;top:14px;right:14px;z-index:3;width:40px;height:40px;border-radius:50%;background:rgba(251,249,245,.9);display:grid;place-items:center;font-size:1.3rem;line-height:1;box-shadow:var(--shadow-s);transition:transform .35s var(--ease)}
+.m-close:hover{transform:rotate(90deg)}
+.m-pad{padding:clamp(1.7rem,3.4vw,2.6rem)}
+.m-art{aspect-ratio:16/9;background:var(--beige);overflow:hidden}
+.m-art svg{width:100%;height:100%}
+.m-price{font-family:var(--font-display);font-size:2.1rem;color:var(--green-900);line-height:1;margin-bottom:.3rem}
+.m-specs{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;margin:1.5rem 0}
+.m-specs div{background:var(--cream);padding:.9rem .8rem;text-align:center}
+.m-specs b{display:block;font-size:1.05rem;font-weight:700}
+.m-specs span{font-size:.72rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.m-feats{list-style:none;padding:0;margin:0 0 1.7rem;display:grid;grid-template-columns:1fr 1fr;gap:.55rem}
+@media(max-width:520px){.m-feats,.m-specs{grid-template-columns:1fr 1fr}}
+.m-feats li{display:flex;gap:.55rem;align-items:center;font-size:.92rem;color:var(--muted)}
+.m-feats svg{width:16px;height:16px;color:var(--green);flex:none}
+.m-btns{display:flex;gap:.7rem;flex-wrap:wrap}
+.m-btns .btn{flex:1;min-width:190px}
+
+.notice{text-align:center;padding:clamp(2rem,4vw,2.8rem)}
+.notice-ic{width:70px;height:70px;border-radius:50%;background:var(--beige);display:grid;place-items:center;margin:0 auto 1.3rem;color:var(--green-700);animation:pop .6s var(--ease) both}
+@keyframes pop{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.08)}100%{transform:scale(1);opacity:1}}
+.notice-ic svg{width:32px;height:32px}
+.notice h3{font-size:1.6rem;margin-bottom:.6rem}
+.notice p{color:var(--muted);max-width:44ch;margin-inline:auto}
+
+/* ---------- utilidades ---------- */
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.up{position:fixed;right:20px;bottom:92px;z-index:790;width:44px;height:44px;border-radius:50%;background:var(--green-900);color:#fff;display:grid;place-items:center;box-shadow:var(--shadow-m);opacity:0;visibility:hidden;transform:translateY(10px);transition:all .45s var(--ease)}
+.up.on{opacity:1;visibility:visible;transform:none}
+.up:hover{background:var(--green-700)}
+@media(max-width:640px){.up{right:16px;bottom:82px;width:40px;height:40px}}
+
+/* ============================================================
+   PASARELA DE FOTOS (tarjetas y pantalla completa)
+   ============================================================ */
+.cw{position:relative;overflow:hidden;background:var(--beige);isolation:isolate;touch-action:pan-y}
+.cw-s{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.05);transition:opacity .75s var(--ease),transform 1.1s var(--ease);pointer-events:none}
+.cw-s.on{opacity:1;transform:none}
+.cw-scrim{position:absolute;inset:auto 0 0;height:96px;background:linear-gradient(transparent,rgba(30,32,22,.42));pointer-events:none;z-index:1}
+.cw-nav{
+  position:absolute;top:50%;z-index:3;width:36px;height:36px;border-radius:50%;
+  background:rgba(251,249,245,.94);color:var(--green-900);display:grid;place-items:center;box-shadow:var(--shadow-s);
+  opacity:0;transform:translateY(-50%) scale(.85);
+  transition:opacity .35s var(--ease),transform .35s var(--ease),background-color .3s;
+}
+.cw-nav.prev{left:10px}
+.cw-nav.next{right:10px}
+.cw:hover .cw-nav,.cw:focus-within .cw-nav{opacity:1;transform:translateY(-50%) scale(1)}
+.cw-nav:hover{background:#fff;transform:translateY(-50%) scale(1.12)}
+.cw-nav:active{transform:translateY(-50%) scale(.95)}
+.cw-nav svg{width:15px;height:15px}
+.cw-dots{position:absolute;left:0;right:0;bottom:12px;z-index:3;display:flex;justify-content:center;gap:6px}
+.cw-dots button{
+  width:6px;height:6px;border-radius:100px;background:rgba(251,249,245,.55);
+  transition:width .45s var(--ease),background-color .35s;box-shadow:0 1px 3px rgba(30,32,22,.3);
+}
+.cw-dots button.on{width:20px;background:#fff}
+.cw-cap{
+  position:absolute;left:14px;bottom:11px;z-index:3;color:#fff;font-size:.73rem;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;text-shadow:0 1px 8px rgba(30,32,22,.5);
+}
+.cw-count{
+  position:absolute;top:14px;right:14px;z-index:3;background:rgba(30,32,22,.55);color:#fff;
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  padding:.3rem .7rem;border-radius:100px;font-size:.72rem;font-weight:700;letter-spacing:.06em;
+}
+.prop .cw{aspect-ratio:4/3}
+.prop .cw-cap{bottom:28px}
+@media(hover:none){.cw-nav{opacity:1;transform:translateY(-50%) scale(1)}}
+
+/* ============================================================
+   FICHA A PANTALLA COMPLETA
+   ============================================================ */
+.pview{
+  position:fixed;inset:0;z-index:1300;background:var(--cream);
+  display:grid;grid-template-columns:minmax(0,1.32fr) minmax(390px,.68fr);
+  opacity:0;visibility:hidden;transition:opacity .45s var(--ease),visibility .45s;
+}
+.pview.open{opacity:1;visibility:visible}
+.pv-gal{position:relative;background:var(--green-900);overflow:hidden}
+.pv-gal .cw{position:absolute;inset:0;background:var(--green-900)}
+.pv-gal .cw-nav{width:48px;height:48px}
+.pv-gal .cw-nav.prev{left:22px}
+.pv-gal .cw-nav.next{right:22px}
+.pv-gal .cw-nav svg{width:19px;height:19px}
+.pv-gal .cw-cap{left:26px;bottom:34px;font-size:.8rem}
+.pv-gal .cw-count{top:auto;bottom:32px;right:26px}
+.pv-gal .cw-dots{bottom:16px}
+.pv-badges{position:absolute;top:22px;left:22px;z-index:4;display:flex;gap:.5rem;flex-wrap:wrap}
+.pv-badges .badge{position:static}
+
+.pv-info{
+  overflow-y:auto;padding:clamp(1.6rem,2.6vw,2.9rem) clamp(1.4rem,2.4vw,2.6rem) 3rem;
+  opacity:0;transform:translateY(26px);transition:opacity .6s var(--ease) .1s,transform .6s var(--ease) .1s;
+  border-left:1px solid var(--line-2);background:var(--cream);
+}
+.pview.open .pv-info{opacity:1;transform:none}
+.pv-close{
+  position:fixed;top:20px;right:20px;z-index:1310;width:46px;height:46px;border-radius:50%;
+  background:rgba(251,249,245,.95);color:var(--green-900);display:grid;place-items:center;font-size:1.35rem;line-height:1;
+  box-shadow:var(--shadow-m);transition:transform .4s var(--ease),background-color .3s;
+}
+.pv-close:hover{transform:rotate(90deg);background:#fff}
+.pv-ref{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.pv-price{font-family:var(--font-display);font-size:clamp(2rem,3.4vw,2.7rem);color:var(--green-900);line-height:1;margin:.5rem 0 .35rem}
+.pv-price small{font-family:var(--font-body);font-size:.9rem;font-weight:600;color:var(--muted)}
+.pv-title{font-size:clamp(1.4rem,2.3vw,1.85rem);margin-bottom:.4rem}
+.pv-addr{display:flex;gap:.5rem;align-items:flex-start;color:var(--muted);font-size:.93rem;margin-bottom:1.5rem}
+.pv-addr svg{width:16px;height:16px;flex:none;margin-top:4px}
+.pv-addr b{color:var(--ink);font-weight:700;display:block}
+
+.pv-specs{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;margin-bottom:1.8rem}
+.pv-specs div{background:#fff;padding:.95rem .5rem;text-align:center;min-width:0}
+.pv-specs b{display:block;font-size:1.1rem;font-weight:700;line-height:1.2;white-space:nowrap}
+.pv-specs span{font-size:.66rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+@media(max-width:520px){.pv-specs{grid-template-columns:repeat(2,1fr)}}
+
+.pv-h{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--green-700);font-weight:800;font-family:var(--font-body);margin:0 0 .85rem}
+.pv-block{padding-top:1.7rem;margin-top:1.7rem;border-top:1px solid var(--line-2)}
+.pv-block:first-of-type{padding-top:0;margin-top:0;border-top:0}
+.pv-desc p{color:var(--muted);font-size:.98rem}
+.pv-desc p:last-child{margin-bottom:0}
+
+.pv-feats{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.pv-feats li{display:flex;gap:.55rem;align-items:flex-start;font-size:.93rem;color:var(--muted)}
+.pv-feats svg{width:16px;height:16px;color:var(--green);flex:none;margin-top:4px}
+@media(max-width:420px){.pv-feats{grid-template-columns:1fr}}
+
+.pv-data{list-style:none;padding:0;margin:0;font-size:.93rem}
+.pv-data li{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px dashed var(--line-2)}
+.pv-data li:last-child{border:0}
+.pv-data span{color:var(--muted)}
+.pv-data b{font-weight:700;text-align:right}
+
+.pv-map{position:relative;height:170px;border-radius:var(--r-m);overflow:hidden;border:1px solid var(--line-2);margin-bottom:1rem}
+.pv-map svg{position:absolute;inset:0;width:100%;height:100%}
+.pv-map .map-pin{top:50%}
+.pv-map .map-badge{font-size:.78rem;padding:.5rem .8rem}
+.pv-near{list-style:none;padding:0;margin:0;display:grid;gap:.55rem}
+.pv-near li{display:flex;gap:.55rem;align-items:flex-start;font-size:.92rem;color:var(--muted)}
+.pv-near svg{width:15px;height:15px;color:var(--green-700);flex:none;margin-top:4px}
+
+.pv-cta{
+  position:sticky;bottom:12px;z-index:2;margin:2.2rem 0 0;padding:.9rem;border-radius:var(--r-l);
+  background:rgba(251,249,245,.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border:1px solid var(--line-2);box-shadow:var(--shadow-m);
+  display:flex;gap:.6rem;flex-wrap:wrap;
+}
+.pv-cta .btn{flex:1 1 100%}
+.pv-note{font-size:.75rem;color:var(--muted);text-align:center;margin:.15rem 0 0;width:100%}
+
+@media(max-width:960px){
+  .pview{grid-template-columns:1fr;grid-template-rows:40svh minmax(0,1fr)}
+  .pv-cta{padding:.7rem;gap:.5rem;bottom:10px}
+  .pv-cta .btn{flex:1 1 0;min-width:0;padding:.85rem .7rem;font-size:.86rem;gap:.45rem}
+  .pv-note{font-size:.69rem}
+  .pv-info{border-left:0;border-top:1px solid var(--line-2)}
+  .pv-gal .cw-nav{width:40px;height:40px}
+  .pv-gal .cw-nav.prev{left:12px}
+  .pv-gal .cw-nav.next{right:12px}
+  .pv-gal .cw-cap{left:16px;bottom:30px}
+  .pv-gal .cw-count{right:16px;bottom:28px}
+  .pv-close{top:14px;right:14px;width:42px;height:42px}
+}
+
+/* ============================================================
+   FORMULARIOS EN VENTANA (valoración y visita)
+   ============================================================ */
+[hidden]{display:none !important}
+.modal--form{max-width:620px}
+.fm-head{padding:clamp(1.7rem,3vw,2.3rem) clamp(1.4rem,3vw,2.3rem) 0}
+.fm-head .eyebrow{margin-bottom:.7rem}
+.fm-head h3{font-size:clamp(1.55rem,2.7vw,1.95rem);margin:0 0 .45rem;padding-right:2.4rem}
+.fm-head p{color:var(--muted);font-size:.95rem;margin:0}
+.fm-prop{display:flex;gap:.85rem;align-items:center;background:var(--beige);border:1px solid var(--line-2);border-radius:var(--r-m);padding:.55rem .7rem .55rem .55rem;margin-top:1.15rem}
+.fm-prop img{width:76px;height:57px;object-fit:cover;border-radius:10px;flex:none;background:var(--sand)}
+.fm-prop b{display:block;font-size:.93rem;line-height:1.3}
+.fm-prop span{font-size:.8rem;color:var(--muted)}
+.fm-body{padding:1.4rem clamp(1.4rem,3vw,2.3rem) clamp(1.5rem,3vw,2.2rem)}
+.fm-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.05rem}
+.fm-grid .full{grid-column:1/-1}
+@media(max-width:560px){.fm-grid{grid-template-columns:1fr}}
+
+fieldset.field{border:0;margin:0;padding:0;min-width:0}
+fieldset.field legend{display:block;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.45rem;padding:0}
+.field .req{color:var(--clay)}
+.field .hint{display:block;font-size:.76rem;color:var(--muted);margin-top:.35rem}
+.field .msg{display:none;font-size:.77rem;color:#A6452E;margin-top:.35rem;font-weight:600}
+.field.err .msg{display:block}
+.field.err .hint{display:none}
+.field.err input:not([type=radio]):not([type=checkbox]),.field.err select{border-color:#C0694F;background:#FDF6F3}
+.field.err{animation:shake .42s var(--ease-io)}
+@keyframes shake{20%{transform:translateX(-5px)}40%{transform:translateX(5px)}60%{transform:translateX(-3px)}80%{transform:translateX(3px)}}
+.field select{cursor:pointer}
+.input-euro{position:relative}
+.input-euro input{padding-right:2.5rem}
+.input-euro::after{content:"€";position:absolute;right:1.05rem;top:50%;transform:translateY(-50%);color:var(--muted);font-weight:700;pointer-events:none}
+
+/* opciones en píldora: habitaciones, baños, días y franja */
+.pills{display:flex;flex-wrap:wrap;gap:.42rem}
+.pill{position:relative;display:inline-flex}
+.field .pill input{position:absolute;opacity:0;width:1px;height:1px;margin:0;padding:0;border:0;pointer-events:none}
+.pill span{
+  display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-width:46px;padding:.62rem .95rem;
+  border:1.5px solid var(--line);border-radius:100px;background:var(--cream);font-weight:700;font-size:.9rem;
+  cursor:pointer;user-select:none;transition:background-color .3s var(--ease),border-color .3s,color .3s,transform .25s var(--ease);
+}
+.pill span:hover{border-color:var(--green)}
+.pill span:active{transform:scale(.95)}
+.pill span small{font-size:.72rem;font-weight:600;opacity:.72}
+.pill input:checked+span{background:var(--green-900);border-color:var(--green-900);color:#fff}
+.pill input:focus-visible+span{outline:2.5px solid var(--green-700);outline-offset:2px}
+.field.err .pill span{border-color:#D99A86}
+
+.field .consent{margin:0}
+.rgpd{margin-top:.55rem;font-size:.78rem;color:var(--muted);border:1px solid var(--line-2);border-radius:var(--r-m);background:var(--cream)}
+.rgpd summary{cursor:pointer;padding:.6rem .85rem;font-weight:700;color:var(--green-700);list-style:none;display:flex;align-items:center;gap:.45rem}
+.rgpd summary::-webkit-details-marker{display:none}
+.rgpd summary::before{content:"";width:6px;height:6px;border-right:1.8px solid currentColor;border-bottom:1.8px solid currentColor;transform:rotate(-45deg);transition:transform .3s var(--ease);flex:none}
+.rgpd[open] summary::before{transform:rotate(45deg)}
+.rgpd dl{margin:0;padding:0 .85rem .85rem;display:grid;grid-template-columns:auto 1fr;gap:.3rem .8rem;line-height:1.5}
+.rgpd dt{font-weight:800;color:var(--ink)}
+.rgpd dd{margin:0}
+.rgpd a{text-decoration:underline;text-underline-offset:2px}
+@media(max-width:460px){.rgpd dl{grid-template-columns:1fr;gap:.05rem}.rgpd dd{margin-bottom:.45rem}}
+.field .consent input{padding:0;border:0;background:none;box-shadow:none;width:18px;height:18px;margin-top:2px}
+.fm-foot{margin-top:1.4rem;display:grid;gap:.7rem}
+.fm-foot .btn{width:100%}
+.fm-note{font-size:.78rem;color:var(--muted);text-align:center;margin:0}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  .reveal,.reveal-x,.reveal-s{opacity:1 !important;transform:none !important}
+  .cw-s{transition:none !important}.cw-s.on{transform:none !important}
+  .mask{clip-path:none !important}
+}
+@media print{.nav,.wa,.up,.drawer,#boot{display:none !important}}
+</style>
+</head>
+
+<body>
+
+<!-- ============ PANTALLA DE ENTRADA ============ -->
+<div id="boot" aria-hidden="true">
+  <div class="boot-in">
+    <span class="boot-logo logo-img"></span>
+    <div class="boot-name" id="bootName">RP GROUP</div>
+    <div class="boot-bar"><i></i></div>
+  </div>
+</div>
+
+
+<!-- ============ CABECERA ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#inicio" class="brand" aria-label="RP Group Inmobiliaria, inicio">
+      <span class="logo-img"></span>
+      <span class="brand-txt"><b>RP GROUP</b><small>Inmobiliaria</small></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Menú principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#inmuebles">Inmuebles</a>
+      <a href="#vender">Vende tu casa</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="tel:+34666752862" class="nav-tel">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>666 752 862</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" aria-label="Cerrar menú">&#10005;</button>
+  <div class="wrap">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#inmuebles">Inmuebles</a>
+    <a href="#vender">Vende tu casa</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+    <div class="dr-foot">
+      <a href="tel:+34666752862"><b>666 752 862</b></a>
+      <span>Avinguda Rambleta 56 · Catarroja</span>
+      <span>L-V 9:30–14:00 &nbsp;·&nbsp; 16:00–20:00</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" id="heroBg">
+    <img src="img/portada.jpg" srcset="img/portada-movil.jpg 750w, img/portada.jpg 1300w" sizes="100vw" alt="Zona de estar de la oficina de RP Group Inmobiliaria en València" fetchpriority="high" decoding="async">
+  </div>
+
+  <div class="hero-in">
+    <div class="hero-top">
+      <p class="eyebrow on-dark">Inmobiliaria en València</p>
+      <h1>
+        <span class="ln name"><span style="animation-delay:.15s">RP GROUP</span></span>
+        <span class="ln claim"><span class="serif-i" style="animation-delay:.3s">encontramos el lugar,</span></span>
+        <span class="ln claim"><span class="serif-i" style="animation-delay:.42s">tú decides el futuro</span></span>
+      </h1>
+      <p class="hero-sub">Compra, venta, alquiler y valoración gratuita de viviendas en Valencia y Horta Sud. <strong>Hipotecas al 100%.</strong> Oficina a pie de calle, equipo propio y acompañamiento de principio a fin.</p>
+
+      <div class="hero-btns">
+        <a href="#inmuebles" class="btn btn--primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+          Ver inmuebles
+        </a>
+        <button class="btn btn--clay js-val" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v5H4zM4 13h7v7H4zM15 13h5v7h-5z"/></svg>
+          Valoración gratuita
+        </button>
+      </div>
+    </div>
+
+    <!-- buscador -->
+    <form class="search" id="search" autocomplete="off">
+      <div class="search-tabs" role="tablist" aria-label="Tipo de operación">
+        <button type="button" class="stab on" data-op="venta" role="tab" aria-selected="true">Comprar</button>
+        <button type="button" class="stab" data-op="alquiler" role="tab" aria-selected="false">Alquilar</button>
+      </div>
+      <div class="search-row">
+        <div class="sfield sfield--txt">
+          <label for="q">Zona o referencia</label>
+          <input type="text" id="q" placeholder="Catarroja, Picanya, València…">
+        </div>
+        <div class="sfield">
+          <label for="tipo">Tipo</label>
+          <select id="tipo">
+            <option value="">Todos</option>
+            <option value="piso">Piso</option>
+            <option value="adosado">Chalet adosado</option>
+            <option value="chalet">Chalet pareado</option>
+            <option value="casa">Casa o chalet independiente</option>
+            
+          </select>
+        </div>
+        <div class="sfield">
+          <label for="precio">Precio máx.</label>
+          <select id="precio">
+            <option value="">Sin límite</option>
+            <option value="a">Hasta 250.000 €</option>
+            <option value="b">Hasta 400.000 €</option>
+            <option value="c">Hasta 600.000 €</option>
+          </select>
+        </div>
+        <button class="btn btn--primary" type="submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          Buscar
+        </button>
+      </div>
+    </form>
+
+    <div class="hero-strip">
+      <div class="hs">
+        <span class="dot-live" id="dotLive"></span>
+        <span><small>Ahora</small><b id="openNow">Comprobando horario…</b></span>
+      </div>
+      <div class="hs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span><small>Dónde</small><b>Avinguda Rambleta 56 · Catarroja</b></span>
+      </div>
+      <div class="hs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+        <span><small>Horario</small><b>L-V 9:30–14:00 · 16:00–20:00</b></span>
+      </div>
+      <div class="hs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span><small>Teléfono</small><b>666 752 862</b></span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ FRANJA DE CONFIANZA ============ -->
+<section class="trust">
+  <div class="wrap">
+    <div class="trust-grid">
+      <div class="trust-item reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 9.1 8 10 4.6-.9 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+        <div><b>Valoración gratuita</b><span>Conoce el valor real de tu inmueble sin compromiso.</span></div>
+      </div>
+      <div class="trust-item reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/></svg>
+        <div><b>Trato personalizado</b><span>Un asesor que conoce tu caso de principio a fin.</span></div>
+      </div>
+      <div class="trust-item reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 2v4M16 2v4"/></svg>
+        <div><b>Gestión integral</b><span>Papeleo, notaría y trámites: nos encargamos de todo.</span></div>
+      </div>
+      <div class="trust-item reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V8l6-5 6 5v13"/><path d="M10 21v-6h4v6"/></svg>
+        <div><b>Oficina a pie de calle</b><span>Avinguda Rambleta 56, Catarroja. Ven cuando quieras.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ SERVICIOS ============ -->
+<section class="pad" id="servicios">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="eyebrow">Qué hacemos</p>
+      <h2>Todo lo que necesitas para <em>comprar, vender o alquilar</em></h2>
+      <p class="lead" style="margin-inline:auto">Seis servicios que cubren el ciclo completo de una operación inmobiliaria. Tú decides hasta dónde quieres llegar; nosotros nos ocupamos del resto.</p>
+    </div>
+
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-1.jpg" alt="Mesa de atención al cliente en la oficina de RP Group" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">01</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div>
+        <h3>Compraventa</h3>
+        <p>Te acompañamos en todo el proceso: desde la primera visita hasta la firma en notaría.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-2.jpg" alt="Aparador de madera con plantas en la oficina de RP Group" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">02</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="5"/><path d="m11.5 11.5 8-8M17 6l2.5 2.5M20 3l1.5 1.5"/></svg></div>
+        <h3>Alquileres</h3>
+        <p>Encontramos el inquilino ideal y nos ocupamos del contrato, las garantías y las entregas.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-3.jpg" alt="Rincón de la sala de reuniones con pizarra" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">03</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v5H4zM4 13h7v7H4zM15 13h5v7h-5z"/></svg></div>
+        <h3>Valoraciones gratuitas</h3>
+        <p>Conoce el valor real de tu inmueble con un estudio de mercado de tu zona, sin coste.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-4.jpg" alt="Zona de butacas para atender a los clientes" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">04</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg></div>
+        <h3>Asesoramiento personalizado</h3>
+        <p>Soluciones a la medida: hipotecas, fiscalidad de la operación y estrategia de precio.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-5.jpg" alt="Mesa de la sala de reuniones de RP Group" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">05</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17 8 20a2.8 2.8 0 0 1-4-4l6-6 3 2 4-4 5 5-4 4-2-3z"/></svg></div>
+        <h3>Gestión integral</h3>
+        <p>Nos encargamos de todo: documentación, cédulas, certificados, notaría y cambios de titularidad.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img"><img src="img/servicio-6.jpg" alt="Logotipo de RP Group Inmobiliaria en la fachada" loading="lazy"></div>
+        <div class="svc-body">
+        <span class="svc-n">06</span>
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 10h2M13 10h2M9 14h2M13 14h2M9 18h6"/></svg></div>
+        <h3>Broker inmobiliario</h3>
+        <p>Encuentra las mejores oportunidades de inversión con rentabilidad estudiada.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INMUEBLES ============ -->
+<section class="pad bg-beige" id="inmuebles">
+  <div class="wrap">
+    <div class="head-row">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Inmuebles</p>
+        <h2>Pisos y casas <em>en venta y alquiler</em></h2>
+        <p class="lead">Una selección de viviendas en València y l&#39;Horta Sud. Filtra por operación, tipo y precio, o dinos qué buscas y lo encontramos por ti.</p>
+      </div>
+      <div class="tabs reveal" role="tablist" aria-label="Operación">
+        <button class="tab on" data-op="venta" role="tab" aria-selected="true">Comprar</button>
+        <button class="tab" data-op="alquiler" role="tab" aria-selected="false">Alquilar</button>
+      </div>
+    </div>
+
+    <div class="chips reveal" id="chips">
+      <button class="chip on" data-tipo="">Todos</button>
+      <button class="chip" data-tipo="piso">Pisos</button>
+      <button class="chip" data-tipo="adosado">Chalets adosados</button>
+      <button class="chip" data-tipo="chalet">Chalets pareados</button>
+      <button class="chip" data-tipo="casa">Casas independientes</button>
+      <button class="chip chip--fav js-favfilter" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg> Guardados <b id="favN">0</b></button>
+    </div>
+
+    <div class="props" id="props"><article class="prop reveal in" tabindex="0" role="button" aria-label="Chalet pareado en Calle Málaga, Catarroja. Ver la ficha completa" data-ref="RP-111603176"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/111603176-1.jpg" alt="Chalet pareado en Calle Málaga. Terraza" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Garaje incluido</span></span><button class="fav" type="button" data-ref="RP-111603176" aria-pressed="false" aria-label="Guardar Chalet pareado en Calle Málaga en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">339.000 €</div><h3>Chalet pareado en Calle Málaga</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Catarroja</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>4 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>3 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>218 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Casa independiente en Santa Teresa-Loma Santa, Godelleta. Ver la ficha completa" data-ref="RP-111745203"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/111745203-1.jpg" alt="Casa independiente en Santa Teresa-Loma Santa. Exterior" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Piscina</span></span><button class="fav" type="button" data-ref="RP-111745203" aria-pressed="false" aria-label="Guardar Casa independiente en Santa Teresa-Loma Santa en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">420.000 €</div><h3>Casa independiente en Santa Teresa-Loma Santa</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Godelleta</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>5 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>2 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>292 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Chalet adosado en Calle Joan Fuster, Picanya. Ver la ficha completa" data-ref="RP-112382561"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112382561-1.jpg" alt="Chalet adosado en Calle Joan Fuster. Salón" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Garaje incluido</span></span><button class="fav" type="button" data-ref="RP-112382561" aria-pressed="false" aria-label="Guardar Chalet adosado en Calle Joan Fuster en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">550.000 €</div><h3>Chalet adosado en Calle Joan Fuster</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Picanya</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>4 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>3 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>262 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" hidden tabindex="0" role="button" aria-label="Piso en Vicente Iborra, El Carme, València. Ver la ficha completa" data-ref="RP-112489260"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112489260-1.jpg" alt="Piso en Vicente Iborra. Cocina" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge rent">En alquiler</span><span class="badge tag">Amueblado</span></span><button class="fav" type="button" data-ref="RP-112489260" aria-pressed="false" aria-label="Guardar Piso en Vicente Iborra en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">1100 €<small> /mes</small></div><h3>Piso en Vicente Iborra</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>El Carme, València</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>2 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>1 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>65 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Chalet adosado en Pelayo, Catarroja. Ver la ficha completa" data-ref="RP-112497170"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112497170-1.jpg" alt="Chalet adosado en Pelayo. Terraza" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Garaje incluido</span></span><button class="fav" type="button" data-ref="RP-112497170" aria-pressed="false" aria-label="Guardar Chalet adosado en Pelayo en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">550.000 €</div><h3>Chalet adosado en Pelayo</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Catarroja</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>3 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>4 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>378 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Chalet adosado en Ciudadela, Centro - El Castillo, Sagunt. Ver la ficha completa" data-ref="RP-112505096"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112505096-1.jpg" alt="Chalet adosado en Ciudadela. Patio" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Terraza</span></span><button class="fav" type="button" data-ref="RP-112505096" aria-pressed="false" aria-label="Guardar Chalet adosado en Ciudadela en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">230.000 €</div><h3>Chalet adosado en Ciudadela</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Centro - El Castillo, Sagunt</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>4 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>2 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>150 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Piso en Santa Teresa, Algemesí. Ver la ficha completa" data-ref="RP-112558284"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112558284-1.jpg" alt="Piso en Santa Teresa. Salón comedor" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Terraza</span></span><button class="fav" type="button" data-ref="RP-112558284" aria-pressed="false" aria-label="Guardar Piso en Santa Teresa en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">170.000 €</div><h3>Piso en Santa Teresa</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Algemesí</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>3 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>2 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>106 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Piso en Avenida de la Constitució, Els Orriols, València. Ver la ficha completa" data-ref="RP-112572200"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112572200-01.jpg" alt="Piso en Avenida de la Constitució. Salón comedor" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Ascensor</span></span><button class="fav" type="button" data-ref="RP-112572200" aria-pressed="false" aria-label="Guardar Piso en Avenida de la Constitució en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">268.000 €</div><h3>Piso en Avenida de la Constitució</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Els Orriols, València</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>4 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>2 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>130 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article><article class="prop reveal in" tabindex="0" role="button" aria-label="Piso en Calle La Sirena, Silla. Ver la ficha completa" data-ref="RP-112586614"><div class="prop-art"><div class="cw"><img class="cw-s on" src="fotos/t/112586614-01.jpg" alt="Piso en Calle La Sirena. Salón comedor" loading="lazy" decoding="async" width="720" height="540"></div><span class="badges"><span class="badge">En venta</span><span class="badge tag">Garaje y trastero</span></span><button class="fav" type="button" data-ref="RP-112586614" aria-pressed="false" aria-label="Guardar Piso en Calle La Sirena en favoritos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg></button></div><div class="prop-body"><div class="prop-price">195.000 €</div><h3>Piso en Calle La Sirena</h3><p class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Silla</p><div class="specs"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>2 hab.</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>1 baños</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>103 m²</span></div><span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></div></article></div>
+    <noscript><p class="demo-note" style="margin-top:1.5rem">Activa JavaScript para ver el listado de inmuebles.</p></noscript>
+
+    <div class="props-foot reveal">
+      <a class="btn btn--primary" href="https://wa.me/34666752862?text=Hola%20RP%20Group%2C%20%C2%BFpod%C3%A9is%20enviarme%20vuestra%20cartera%20completa%20de%20inmuebles%3F" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+        Pedir la cartera completa
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VENDE TU CASA ============ -->
+<section class="pad" id="vender">
+  <div class="wrap">
+    <div class="sell reveal-s">
+      <div class="sell-grid">
+        <div class="sell-txt">
+          <p class="eyebrow on-dark">¿Vendes o alquilas?</p>
+          <h2>Sabemos <em>cuánto vale</em> tu casa hoy</h2>
+          <p>Estudiamos tu vivienda, la medimos con datos reales y te damos un precio que se ajuste al mercado.</p>
+          <ul class="sell-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span>Valoración gratuita con datos reales de tu zona</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span>Reportaje fotográfico y publicación en portales</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span>Filtramos visitas: solo compradores serios</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span>Toda la documentación y la notaría, resueltas</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg><span>Con exclusiva o sin ella: lo decides tú, no es condición para que llevemos tu casa</span></li>
+          </ul>
+          <div class="sell-btns">
+            <button class="btn btn--clay js-val" type="button">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v5H4zM4 13h7v7H4zM15 13h5v7h-5z"/></svg>
+              Pedir valoración gratuita
+            </button>
+            <a class="btn btn--ghost" href="https://wa.me/34666752862?text=Hola%20RP%20Group%2C%20quiero%20informaci%C3%B3n%20para%20vender%20mi%20vivienda." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+              Escribir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="sell-media">
+          <!-- Foto de la fachada del local -->
+          <img src="img/fachada.jpg" alt="Fachada de RP Group Inmobiliaria con el rótulo sobre la puerta" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESO ============ -->
+<section class="pad-s">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="eyebrow">Cómo trabajamos</p>
+      <h2>Cuatro pasos, <em>cero sorpresas</em></h2>
+    </div>
+    <div class="steps">
+      <article class="step reveal"><b>1</b><h3>Nos conocemos</h3><p>Nos cuentas qué buscas o qué quieres vender. Escuchamos antes de proponer nada.</p></article>
+      <article class="step reveal"><b>2</b><h3>Estudiamos el caso</h3><p>Valoración, comparables de tu zona y plan de precio o de búsqueda a medida.</p></article>
+      <article class="step reveal"><b>3</b><h3>Comercializamos el inmueble</h3><p>Fotos, publicación, filtrado de clientes y visitas acompañadas por tu asesor.</p></article>
+      <article class="step reveal"><b>4</b><h3>Cerramos y firmamos</h3><p>Negociación, documentación, notaría y entrega de llaves. Todo revisado.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOSOTROS ============ -->
+<section class="pad bg-white" id="nosotros">
+  <div class="wrap about">
+    <div class="reveal-x">
+      <p class="eyebrow">Quiénes somos</p>
+      <h2>Una inmobiliaria <em>cercana, transparente y profesional</em></h2>
+      <p class="lead">RP Group es una agencia inmobiliaria con sede en la Avinguda Rambleta de Catarroja. Trabajamos la compraventa y el alquiler de pisos y casas en la ciudad y en los pueblos de l&#39;Horta Sud. Los encargos se formalizan en exclusiva o sin ella, según lo prefiera cada propietario: es una decisión suya, no un requisito nuestro.</p>
+      <p style="color:var(--muted)">Escríbenos por WhatsApp, rellena un formulario o entra directamente en la oficina: los tres caminos acaban igual, sentado con la persona que va a llevar tu operación. Y es la misma de principio a fin: quien te enseña la vivienda es quien negocia y quien te acompaña a la notaría, así que no tienes que volver a explicar tu caso cada vez que llamas.</p>
+
+      <!--FACTS-->
+      <div class="facts">
+        <div class="fact"><b><span data-count="8.5" data-dec="1">8,5</span>&nbsp;h</b><span>de atención al día, de lunes a viernes</span></div>
+        <div class="fact"><b><span data-count="6">6</span></b><span>servicios inmobiliarios integrales</span></div>
+        <div class="fact"><b><span data-count="100">100</span>&nbsp;%</b><span>valoraciones sin coste ni compromiso</span></div>
+        <div class="fact"><b><span data-count="7">7</span></b><span>poblaciones con inmuebles en cartera</span></div>
+      </div>
+      <!--/FACTS-->
+
+      <div style="margin-top:2rem;display:flex;gap:.8rem;flex-wrap:wrap">
+        <a href="#contacto" class="btn btn--primary">Hablemos</a>
+        <a href="#inmuebles" class="btn btn--line">Ver inmuebles</a>
+      </div>
+    </div>
+
+    <!-- Fotos de la oficina -->
+    <div class="gal reveal-s">
+      <figure class="g1"><img src="img/oficina-espera.jpg" alt="Zona de espera de RP Group con sofás verdes" loading="lazy"><figcaption>Zona de espera</figcaption></figure>
+      <figure class="g2"><img src="img/oficina-reunion.jpg" alt="Sala de reuniones de RP Group con el logotipo en la pared" loading="lazy"><figcaption>Sala de reuniones</figcaption></figure>
+      <figure class="g3"><img src="img/oficina-trabajo.jpg" alt="Zona de trabajo de la oficina de RP Group con el logotipo en la pared" loading="lazy"><figcaption>Nuestra oficina</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEÑAS ============ -->
+<!-- El contenido sale de resenas.json. Si ahí "muestra" es true, esta sección
+     NO se genera en la web publicable: solo en el archivo de muestra. -->
+
+
+<!-- ============ CONTACTO ============ -->
+<section class="pad bg-beige" id="contacto">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Contacto</p>
+      <h2>Cuéntanos qué buscas y <em>te llamamos</em></h2>
+      <p class="lead">Estamos en Avinguda Rambleta 56, Catarroja. Abrimos de lunes a viernes, de 9:30 a 14:00 y de 16:00 a 20:00.</p>
+    </div>
+
+    <div class="contact">
+      <div class="reveal">
+        <div class="card" style="margin-bottom:1.2rem">
+          <div class="open-pill"><span class="dot-live" id="dotLive2"></span><span id="openNow2">Comprobando horario…</span></div>
+          <ul class="info-list">
+            <li>
+              <span class="info-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <div><b>Teléfono</b><p><a href="tel:+34666752862">666 752 862</a></p></div>
+            </li>
+            <li>
+              <span class="info-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><b>Dirección</b><p>Avinguda Rambleta 56, bajo<br>46470 Catarroja, València</p></div>
+            </li>
+            <li>
+              <span class="info-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+              <div><b>Correo</b><p><a href="mailto:info@rpgroupinmobiliaria.com">info@rpgroupinmobiliaria.com</a></p></div>
+            </li>
+            <li>
+              <span class="info-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+              <div><b>Instagram</b><p><a href="https://www.instagram.com/rpgroup.inmobiliaria/" target="_blank" rel="noopener">@rpgroup.inmobiliaria</a></p></div>
+            </li>
+          </ul>
+
+          <h3 style="font-size:1.05rem;margin:1.9rem 0 .7rem">Horario de apertura</h3>
+          <ul class="hours" id="hoursList">
+            <li data-d="1,2,3,4,5"><span>De lunes a viernes</span><b>9:30–14:00 · 16:00–20:00</b></li>
+            <li data-d="6,0"><span>Sábado y domingo</span><b>Cerrado</b></li>
+          </ul>
+        </div>
+
+        <div class="map">
+          <svg class="map-canvas" viewBox="0 0 600 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="600" height="380" fill="#E9E3D6"/>
+            <g fill="#DED7C6"><rect x="30" y="34" width="140" height="94" rx="4"/><rect x="196" y="24" width="110" height="80" rx="4"/><rect x="340" y="40" width="128" height="88" rx="4"/><rect x="492" y="30" width="86" height="98" rx="4"/><rect x="26" y="248" width="150" height="106" rx="4"/><rect x="206" y="256" width="132" height="98" rx="4"/><rect x="366" y="242" width="118" height="112" rx="4"/><rect x="506" y="252" width="76" height="102" rx="4"/></g>
+            <g stroke="#F6F2EA" stroke-width="26" stroke-linecap="round"><path d="M-20 190H620"/><path d="M186 -20V400"/><path d="M470 -20V400"/></g>
+            <g stroke="#D9D1C0" stroke-width="2" stroke-dasharray="9 11"><path d="M-20 190H620"/></g>
+            <g fill="#B7BC9C" opacity=".85"><circle cx="90" cy="196" r="9"/><circle cx="120" cy="204" r="7"/><circle cx="540" cy="200" r="10"/></g>
+            <text x="300" y="228" font-family="Manrope,sans-serif" font-size="13" fill="#8F8974" text-anchor="middle" letter-spacing="2">AVINGUDA LA RAMBLETA</text>
+          </svg>
+          <div class="map-pin">
+            <div class="map-badge">RP Group Inmobiliaria<small>Avinguda Rambleta 56 · Catarroja</small></div>
+            <span class="map-dot"></span>
+          </div>
+          <a class="btn btn--primary btn--sm map-cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Avinguda%20Rambleta%2056%2C%2046470%20Catarroja" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h3 style="margin-bottom:.4rem">Escríbenos</h3>
+        <p style="color:var(--muted);font-size:.95rem">Respondemos en horario de oficina. Cuanto más nos cuentes, mejor podremos ayudarte.</p>
+        <form class="form-grid" id="leadForm" novalidate>
+          <div class="field"><label for="f-nom">Nombre y apellidos <span class="req">*</span></label>
+            <input id="f-nom" name="nombre" type="text" autocomplete="name" placeholder="Nombre y apellidos" required>
+            <span class="msg">Escribe tu nombre y al menos un apellido.</span></div>
+          <div class="field"><label for="f-tel">Teléfono <span class="req">*</span></label>
+            <input id="f-tel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="600 000 000" required>
+            <span class="msg">Revisa el teléfono: 9 cifras.</span></div>
+          <div class="field full"><label for="f-mail">Correo electrónico</label>
+            <input id="f-mail" name="correo" type="email" autocomplete="email" placeholder="tucorreo@email.com">
+            <span class="msg">Revisa el correo electrónico.</span></div>
+          <div class="field"><label for="f-int">Me interesa</label>
+            <select id="f-int" name="interes">
+              <option>Comprar una vivienda</option>
+              <option>Alquilar una vivienda</option>
+              <option>Vender mi vivienda</option>
+              <option>Poner mi piso en alquiler</option>
+              <option>Valoración gratuita</option>
+              <option>Inversión / broker</option>
+            </select>
+          </div>
+          <div class="field"><label for="f-zona">Zona</label><input id="f-zona" name="zona" type="text" placeholder="València, Catarroja…"></div>
+          <div class="field full"><label for="f-msg">Mensaje</label><textarea id="f-msg" name="mensaje" placeholder="Cuéntanos qué necesitas: metros, habitaciones, presupuesto…"></textarea></div>
+          <div class="field full" data-req="check">
+            <label class="consent"><input type="checkbox" id="f-ok" name="ok"><span>Acepto que RP Group trate mis datos para responder a esta consulta.</span></label>
+            <details class="rgpd">
+              <summary>Información básica sobre protección de datos</summary>
+              <dl>
+                <dt>Responsable</dt><dd>RP URBANIS CAPITAL SL</dd>
+                <dt>Finalidad</dt><dd>Responder a la consulta que nos planteas.</dd>
+                <dt>Legitimación</dt><dd>Tu consentimiento, que prestas al marcar la casilla y enviar el mensaje.</dd>
+                <dt>Destinatarios</dt><dd>No se ceden datos a terceros, salvo a nuestros proveedores de servicios o por obligación legal.</dd>
+                <dt>Derechos</dt><dd>Acceder, rectificar y suprimir tus datos, además de otros derechos, escribiendo a info@rpgroupinmobiliaria.com.</dd>
+                <dt>Más información</dt><dd><a href="privacidad.html" target="_blank" rel="noopener">Política de privacidad</a></dd>
+              </dl>
+            </details>
+            <span class="msg">Necesitamos tu permiso para poder responderte.</span>
+          </div>
+          <div class="full" style="display:grid;gap:.7rem">
+            <button class="btn btn--primary" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+              Enviar consulta por WhatsApp
+            </button>
+            <button class="btn btn--line js-mail" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+              Enviar consulta por correo
+            </button>
+          </div>
+        </form>
+        <p style="font-size:.8rem;color:var(--muted);margin:1rem 0 0;text-align:center">O si lo prefieres, llámanos al <a href="tel:+34666752862"><b>666 752 862</b></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PIE ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <span class="logo-img" style="width:54px;height:54px"></span>
+          <span><b>RP GROUP</b><small>Inmobiliaria</small></span>
+        </div>
+        <p style="font-size:.93rem;max-width:34ch">Compraventa, alquiler y gestión integral de viviendas en València y l&#39;Horta Sud.</p>
+      </div>
+      <div>
+        <h4>Web</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#inmuebles">Inmuebles</a></li>
+          <li><a href="#vender">Vende tu casa</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <ul>
+          <li>Compraventa</li>
+          <li>Alquileres</li>
+          <li>Valoraciones gratuitas</li>
+          <li>Asesoramiento personalizado</li>
+          <li>Gestión integral</li>
+          <li>Broker inmobiliario</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+34666752862">666 752 862</a></li>
+          <li>Avinguda Rambleta 56, bajo<br>46470 Catarroja, València</li>
+          <li>De lunes a viernes<br>9:30–14:00 · 16:00–20:00</li><li>Sábado y domingo: cerrado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© <span id="year">2026</span> RP Group Inmobiliaria · Todos los derechos reservados</p>
+      <p><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Política de privacidad</a> · <a href="cookies.html">Política de cookies</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOTANTE ============ -->
+<a class="wa" href="https://wa.me/34666752862?text=Hola%20RP%20Group%2C%20os%20escribo%20desde%20la%20web%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <span class="wa-tip">¿Hablamos por WhatsApp?</span>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+</a>
+
+<button class="up" id="up" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- ============ AVISO TRAS ENVIAR ============ -->
+<div class="ov" id="ovDemo" role="dialog" aria-modal="true" aria-labelledby="demoTitle">
+  <div class="modal">
+    <button class="m-close js-close" aria-label="Cerrar">&#10005;</button>
+    <div class="notice">
+      <div class="notice-ic">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.1"/></svg>
+      </div>
+      <h3 id="demoTitle">Listo</h3>
+      <p id="demoMsg">Tu mensaje está preparado.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FORMULARIO: VALORACIÓN GRATUITA ============ -->
+<div class="ov" id="ovVal" role="dialog" aria-modal="true" aria-labelledby="valTitle">
+  <div class="modal modal--form">
+    <button class="m-close js-close" type="button" aria-label="Cerrar">&#10005;</button>
+    <div class="fm-head">
+      <p class="eyebrow">Valoración gratuita</p>
+      <h3 id="valTitle">¿Cuánto vale tu casa?</h3>
+      <p>Cuéntanos cómo es tu vivienda y te llamamos con un precio ajustado al mercado. Sin coste y sin compromiso.</p>
+    </div>
+    <form class="fm-body" id="valForm" novalidate>
+      <div class="fm-grid">
+        <div class="field full">
+          <label for="v-nom">Nombre y apellidos <span class="req">*</span></label>
+          <input id="v-nom" name="nombre" type="text" autocomplete="name" placeholder="Nombre y apellidos" required>
+          <span class="msg">Escribe tu nombre y al menos un apellido.</span>
+        </div>
+        <div class="field">
+          <label for="v-tel">Teléfono <span class="req">*</span></label>
+          <input id="v-tel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="600 000 000" required>
+          <span class="msg">Revisa el teléfono: 9 cifras.</span>
+        </div>
+        <div class="field">
+          <label for="v-mail">Correo electrónico <span class="req">*</span></label>
+          <input id="v-mail" name="correo" type="email" autocomplete="email" placeholder="tucorreo@email.com" required>
+          <span class="msg">Revisa el correo electrónico.</span>
+        </div>
+        <div class="field">
+          <label for="v-loc">Localidad <span class="req">*</span></label>
+          <input id="v-loc" name="localidad" type="text" list="localidades" autocomplete="address-level2" placeholder="Valencia, Catarroja…" required>
+          <span class="msg">Indica la localidad de la vivienda.</span>
+        </div>
+        <div class="field">
+          <label for="v-tipo">Tipo de vivienda <span class="req">*</span></label>
+          <select id="v-tipo" name="tipo" required>
+            <option value="">Selecciona…</option>
+            <option>Piso</option>
+            <option>Casa</option>
+            <option>Loft</option>
+            <option>Chalet</option>
+            <option>Adosado</option>
+            <option>Ático</option>
+          </select>
+          <span class="msg">Elige el tipo de vivienda.</span>
+        </div>
+        <fieldset class="field" data-req="radio">
+          <legend>Habitaciones <span class="req">*</span></legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="hab" value="1"><span>1</span></label>
+            <label class="pill"><input type="radio" name="hab" value="2"><span>2</span></label>
+            <label class="pill"><input type="radio" name="hab" value="3"><span>3</span></label>
+            <label class="pill"><input type="radio" name="hab" value="4"><span>4</span></label>
+            <label class="pill"><input type="radio" name="hab" value="5 o más"><span>5+</span></label>
+          </div>
+          <span class="msg">Indica cuántas habitaciones tiene.</span>
+        </fieldset>
+        <fieldset class="field" data-req="radio">
+          <legend>Baños <span class="req">*</span></legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="ban" value="1"><span>1</span></label>
+            <label class="pill"><input type="radio" name="ban" value="2"><span>2</span></label>
+            <label class="pill"><input type="radio" name="ban" value="3"><span>3</span></label>
+            <label class="pill"><input type="radio" name="ban" value="4 o más"><span>4+</span></label>
+          </div>
+          <span class="msg">Indica cuántos baños tiene.</span>
+        </fieldset>
+        <div class="field full">
+          <label for="v-precio">Precio al que te gustaría vender <span class="req">*</span></label>
+          <div class="input-euro"><input id="v-precio" name="precio" type="text" inputmode="numeric" autocomplete="off" placeholder="250.000" required></div>
+          <span class="msg">Indica un precio orientativo.</span>
+        </div>
+        <div class="field full" data-req="check">
+          <label class="consent"><input type="checkbox" name="ok"><span>Acepto que RP Group trate mis datos para ponerse en contacto conmigo y darme la valoración.</span></label>
+            <details class="rgpd">
+              <summary>Información básica sobre protección de datos</summary>
+              <dl>
+                <dt>Responsable</dt><dd>RP URBANIS CAPITAL SL</dd>
+                <dt>Finalidad</dt><dd>Ponernos en contacto contigo para darte la valoración de tu vivienda.</dd>
+                <dt>Legitimación</dt><dd>Tu consentimiento, que prestas al marcar la casilla y enviar el mensaje.</dd>
+                <dt>Destinatarios</dt><dd>No se ceden datos a terceros, salvo a nuestros proveedores de servicios o por obligación legal.</dd>
+                <dt>Derechos</dt><dd>Acceder, rectificar y suprimir tus datos, además de otros derechos, escribiendo a info@rpgroupinmobiliaria.com.</dd>
+                <dt>Más información</dt><dd><a href="privacidad.html" target="_blank" rel="noopener">Política de privacidad</a></dd>
+              </dl>
+            </details>
+          <span class="msg">Necesitamos tu permiso para poder llamarte.</span>
+        </div>
+      </div>
+      <div class="fm-foot">
+        <button class="btn btn--clay" type="submit">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+          Enviar por WhatsApp
+        </button>
+        <button class="btn btn--line js-mail" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          Enviar por correo
+        </button>
+        <p class="fm-note">Te respondemos en horario de oficina · <a href="tel:+34666752862">666 752 862</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<datalist id="localidades">
+  <option value="Valencia"></option>
+  <option value="Catarroja"></option>
+  <option value="Alfafar"></option>
+  <option value="Albal"></option>
+  <option value="Benetússer"></option>
+  <option value="Beniparrell"></option>
+  <option value="Massanassa"></option>
+  <option value="Paiporta"></option>
+  <option value="Picanya"></option>
+  <option value="Sedaví"></option>
+  <option value="Silla"></option>
+  <option value="Torrent"></option>
+</datalist>
+
+<!-- ============ FORMULARIO: SOLICITAR VISITA ============ -->
+<div class="ov" id="ovVisit" role="dialog" aria-modal="true" aria-labelledby="visTitle">
+  <div class="modal modal--form">
+    <button class="m-close js-close" type="button" aria-label="Cerrar">&#10005;</button>
+    <div class="fm-head">
+      <p class="eyebrow">Solicitar visita</p>
+      <h3 id="visTitle">Ven a conocerla</h3>
+      <p>Dinos cuándo te viene bien y te confirmamos la cita. La visita la haces con tu asesor.</p>
+      <div class="fm-prop">
+        <img id="visArt" alt="" width="76" height="57">
+        <div><b id="visProp">—</b><span id="visRef">—</span></div>
+      </div>
+    </div>
+    <form class="fm-body" id="visForm" novalidate>
+      <div class="fm-grid">
+        <div class="field full">
+          <label for="s-nom">Nombre completo <span class="req">*</span></label>
+          <input id="s-nom" name="nombre" type="text" autocomplete="name" placeholder="Nombre y apellidos" required>
+          <span class="msg">Escribe tu nombre y al menos un apellido.</span>
+        </div>
+        <div class="field full">
+          <label for="s-mail">Correo electrónico <span class="req">*</span></label>
+          <input id="s-mail" name="correo" type="email" autocomplete="email" placeholder="tucorreo@email.com" required>
+          <span class="msg">Revisa el correo electrónico.</span>
+        </div>
+        <fieldset class="field full" data-req="radio">
+          <legend>Disponibilidad · días <span class="req">*</span></legend>
+          <div class="pills" id="visDias">
+            <label class="pill"><input type="checkbox" name="dias" value="lunes"><span>L</span></label>
+            <label class="pill"><input type="checkbox" name="dias" value="martes"><span>M</span></label>
+            <label class="pill"><input type="checkbox" name="dias" value="miércoles"><span>X</span></label>
+            <label class="pill"><input type="checkbox" name="dias" value="jueves"><span>J</span></label>
+            <label class="pill"><input type="checkbox" name="dias" value="viernes"><span>V</span></label>
+          </div>
+          <span class="hint">Puedes marcar varios.</span>
+          <span class="msg">Marca al menos un día.</span>
+        </fieldset>
+        <fieldset class="field full" data-req="radio">
+          <legend>Disponibilidad · horario <span class="req">*</span></legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="franja" value="por la mañana (9:30–14:00)"><span>Mañana <small>9:30–14:00</small></span></label>
+            <label class="pill"><input type="radio" name="franja" value="por la tarde (16:00–20:00)"><span>Tarde <small>16:00–20:00</small></span></label>
+            <label class="pill"><input type="radio" name="franja" value="a cualquier hora"><span>Me da igual</span></label>
+          </div>
+          <span class="msg">Elige una franja horaria.</span>
+        </fieldset>
+        <fieldset class="field full" id="visVender" data-req="radio">
+          <legend>¿Necesitas vender tu vivienda para comprar? <span class="req">*</span></legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="vender" value="sí"><span>Sí</span></label>
+            <label class="pill"><input type="radio" name="vender" value="no"><span>No</span></label>
+          </div>
+          <span class="hint">Si es que sí, coordinamos la venta de la tuya con esta compra.</span>
+          <span class="msg">Indícanos si necesitas vender.</span>
+        </fieldset>
+        <div class="field full" data-req="check">
+          <label class="consent"><input type="checkbox" name="ok"><span>Acepto que RP Group trate mis datos para ponerse en contacto conmigo y concertar la visita.</span></label>
+            <details class="rgpd">
+              <summary>Información básica sobre protección de datos</summary>
+              <dl>
+                <dt>Responsable</dt><dd>RP URBANIS CAPITAL SL</dd>
+                <dt>Finalidad</dt><dd>Ponernos en contacto contigo para concertar la visita al inmueble.</dd>
+                <dt>Legitimación</dt><dd>Tu consentimiento, que prestas al marcar la casilla y enviar el mensaje.</dd>
+                <dt>Destinatarios</dt><dd>No se ceden datos a terceros, salvo a nuestros proveedores de servicios o por obligación legal.</dd>
+                <dt>Derechos</dt><dd>Acceder, rectificar y suprimir tus datos, además de otros derechos, escribiendo a info@rpgroupinmobiliaria.com.</dd>
+                <dt>Más información</dt><dd><a href="privacidad.html" target="_blank" rel="noopener">Política de privacidad</a></dd>
+              </dl>
+            </details>
+          <span class="msg">Necesitamos tu permiso para confirmarte la cita.</span>
+        </div>
+      </div>
+      <div class="fm-foot">
+        <button class="btn btn--primary" type="submit">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2 22l5.34-1.4a9.8 9.8 0 0 0 4.7 1.2h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2m0 1.8c2.14 0 4.16.84 5.68 2.36a7.98 7.98 0 0 1 2.36 5.68c0 4.44-3.6 8.04-8.05 8.04a8 8 0 0 1-4.08-1.12l-.3-.18-3.03.8.81-2.96-.2-.3a7.96 7.96 0 0 1-1.22-4.28c0-4.44 3.6-8.04 8.03-8.04m4.5 10.1c-.24-.12-1.44-.72-1.67-.8-.22-.08-.38-.12-.55.12s-.62.79-.76.95c-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.1.16 1.52.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.05.14-1.16-.06-.1-.22-.16-.46-.28"/></svg>
+          Enviar por WhatsApp
+        </button>
+        <button class="btn btn--line js-mail" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          Enviar por correo
+        </button>
+        <p class="fm-note">Te confirmamos la cita por correo o por teléfono</p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ============ FICHA DE INMUEBLE A PANTALLA COMPLETA ============ -->
+<div class="pview" id="pview" role="dialog" aria-modal="true" aria-labelledby="pvTitle">
+  <button class="pv-close js-pvclose" aria-label="Cerrar la ficha">&#10005;</button>
+
+  <div class="pv-gal">
+    <div class="pv-badges"><span class="badge" id="pvBadge">En venta</span><span class="badge tag" id="pvTag">—</span></div>
+    <div class="cw" id="pvCw" data-i="0"></div>
+  </div>
+
+  <div class="pv-info" id="pvInfo">
+    <p class="pv-ref">Referencia <span id="pvRef">—</span></p>
+    <div class="pv-price" id="pvPrice">—</div>
+    <h2 class="pv-title" id="pvTitle">—</h2>
+    <p class="pv-addr">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span><b id="pvDir">—</b><span id="pvZona">—</span></span>
+    </p>
+
+    <div class="pv-acts">
+      <button class="btn btn--line btn--sm js-fav" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg> <span>Guardar</span></button>
+    </div>
+
+    <div class="pv-specs" id="pvSpecs"></div>
+
+    <section class="pv-block">
+      <h3 class="pv-h">Descripción</h3>
+      <div class="pv-desc" id="pvDesc"></div>
+    </section>
+
+    <section class="pv-block">
+      <h3 class="pv-h">Características</h3>
+      <ul class="pv-feats" id="pvFeats"></ul>
+    </section>
+
+    <section class="pv-block">
+      <h3 class="pv-h">Ubicación</h3>
+      <div class="pv-map">
+        <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect width="600" height="300" fill="#E9E3D6"/>
+          <g fill="#DED7C6"><rect x="24" y="20" width="132" height="82" rx="4"/><rect x="192" y="14" width="108" height="70" rx="4"/><rect x="338" y="24" width="124" height="78" rx="4"/><rect x="492" y="18" width="88" height="84" rx="4"/><rect x="22" y="196" width="140" height="92" rx="4"/><rect x="200" y="204" width="128" height="84" rx="4"/><rect x="360" y="192" width="116" height="96" rx="4"/><rect x="508" y="200" width="74" height="88" rx="4"/></g>
+          <g stroke="#F6F2EA" stroke-width="24" stroke-linecap="round"><path d="M-20 150H620"/><path d="M180 -20V320"/><path d="M470 -20V320"/></g>
+          <g stroke="#D9D1C0" stroke-width="2" stroke-dasharray="8 10"><path d="M-20 150H620"/></g>
+          <g fill="#B7BC9C" opacity=".85"><circle cx="88" cy="156" r="8"/><circle cx="118" cy="163" r="6"/><circle cx="536" cy="158" r="9"/></g>
+        </svg>
+        <div class="map-pin">
+          <div class="map-badge" id="pvMapTxt">—<small id="pvMapSub">—</small></div>
+          <span class="map-dot"></span>
+        </div>
+      </div>
+      <ul class="pv-near" id="pvNear"></ul>
+    </section>
+
+    <section class="pv-block">
+      <h3 class="pv-h">Datos del inmueble</h3>
+      <ul class="pv-data" id="pvData"></ul>
+    </section>
+
+    <div class="pv-cta">
+      <button class="btn btn--primary js-visit" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18M8 2v4M16 2v4M9 15h6"/></svg>
+        Solicitar visita
+      </button>
+      <p class="pv-note">Elige día y hora y te confirmamos la cita</p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+(function(){
+"use strict";
+var RM = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var $  = function(s,c){return (c||document).querySelector(s)};
+var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+
+/* ============================================================
+   1 · INMUEBLES
+   ⚠️ IMPORTANTE: estos 12 inmuebles son de muestra (datos y
+   direcciones inventados). Sustitúyelos por la cartera real de
+   RP Group antes de publicar la web.
+   ============================================================ */
+var PROPS = [{"op":"venta","tipo":"chalet","ref":"RP-111603176","idealista":"111603176","t":"Chalet pareado en Calle Málaga","loc":"Catarroja","price":339000,"hab":4,"ban":3,"m2":218,"tag":"Garaje incluido","dir":"Calle Málaga","zona":"Catarroja","pl":"3 plantas","ene":"D","est":"Segunda mano, buen estado","ano":"","d":"Magnífica casa de pueblo en pleno centro de Catarroja, en una de las zonas más cómodas y demandadas del municipio, ideal para quienes buscan amplitud, independencia y calidad de vida en un entorno familiar y tranquilo.","d2":"Cuenta con cuatro habitaciones, tres baños completos, cocina independiente, comedor independiente y una práctica galería junto a la cocina. En la última planta, una amplia terraza con zona de lavadero para disfrutar del exterior todo el año. La planta baja está destinada a garaje.","f":["Terraza y balcón","Plaza de garaje incluida en el precio","Trastero","Aire acondicionado"],"ph":[{"src":"fotos/111603176-1.jpg","c":"Terraza"},{"src":"fotos/111603176-2.jpg","c":"Recibidor"},{"src":"fotos/111603176-3.jpg","c":"Pasillo"},{"src":"fotos/111603176-4.jpg","c":"Salón"},{"src":"fotos/111603176-5.jpg","c":"Cocina"},{"src":"fotos/111603176-6.jpg","c":"Comedor"}]},{"op":"venta","tipo":"casa","ref":"RP-111745203","idealista":"111745203","t":"Casa independiente en Santa Teresa-Loma Santa","loc":"Godelleta","price":420000,"hab":5,"ban":2,"m2":292,"tag":"Piscina","dir":"Santa Teresa-Loma Santa","zona":"Godelleta","pl":"2 plantas","ene":"E","est":"Segunda mano, buen estado","ano":"1980","d":"Casa independiente en la tranquila urbanización Loma Santa de Godelleta. Son 292 m² construidos sobre una generosa parcela de 1.797 m², ideal para quienes buscan espacio, privacidad y conexión con la naturaleza.","d2":"Construida en 1980 y en buen estado de conservación, combina amplitud y funcionalidad en cada rincón. Dispone de cinco habitaciones, dos baños, piscina, jardín, trastero y plaza de garaje incluida en el precio.","f":["Terraza","Plaza de garaje incluida en el precio","Trastero","Construido en 1980","Piscina","Jardín"],"ph":[{"src":"fotos/111745203-1.jpg","c":"Exterior"},{"src":"fotos/111745203-2.jpg","c":"Porche"},{"src":"fotos/111745203-3.jpg","c":"Salón"},{"src":"fotos/111745203-6.jpg","c":"Cocina"}]},{"op":"venta","tipo":"adosado","ref":"RP-112382561","idealista":"112382561","t":"Chalet adosado en Calle Joan Fuster","loc":"Picanya","price":550000,"hab":4,"ban":3,"m2":262,"tag":"Garaje incluido","dir":"Calle Joan Fuster","zona":"Picanya","pl":"3 plantas","ene":"B","est":"Segunda mano, buen estado","ano":"2020","d":"Chalet adosado de construcción reciente en Picanya, con 262 m² construidos repartidos en tres plantas. Una vivienda pensada para familias que buscan calidad y funcionalidad cerca de València.","d2":"Cuenta con cuatro dormitorios generosamente distribuidos, siendo el principal una suite con baño privado y vestidor. Se completa con calefacción central, aire acondicionado, terraza, balcón y plaza de garaje incluida en el precio.","f":["Terraza y balcón","Plaza de garaje incluida en el precio","Armarios empotrados","Construido en 2020","Calefacción central","Aire acondicionado"],"ph":[{"src":"fotos/112382561-1.jpg","c":"Salón"},{"src":"fotos/112382561-2.jpg","c":"Escalera"},{"src":"fotos/112382561-3.jpg","c":"Salón comedor"},{"src":"fotos/112382561-4.jpg","c":"Salida al patio"},{"src":"fotos/112382561-5.jpg","c":"Recibidor"},{"src":"fotos/112382561-6.jpg","c":"Cocina"}]},{"op":"alquiler","tipo":"piso","ref":"RP-112489260","idealista":"112489260","t":"Piso en Vicente Iborra","loc":"El Carme, València","price":1100,"hab":2,"ban":1,"m2":65,"tag":"Amueblado","dir":"Vicente Iborra","zona":"El Carme, València","pl":"3ª planta exterior","ene":"E","est":"Segunda mano, buen estado","ano":"1969","d":"Piso de 65 m² completamente reformado en el corazón del Barrio del Carmen, amueblado y con cocina equipada, listo para entrar a vivir.","d2":"Situado en una tercera planta exterior con ascensor, a pocos minutos a pie de la Universidad Católica de Valencia y del centro de la ciudad. Cuenta con dos dormitorios luminosos, un baño y armarios empotrados.","f":["Armarios empotrados","Construido en 1969","Amueblado y cocina equipada","Con ascensor","Aire acondicionado"],"ph":[{"src":"fotos/112489260-1.jpg","c":"Cocina"},{"src":"fotos/112489260-2.jpg","c":"Cocina equipada"},{"src":"fotos/112489260-3.jpg","c":"Galería"},{"src":"fotos/112489260-4.jpg","c":"Distribuidor"},{"src":"fotos/112489260-5.jpg","c":"Dormitorio"},{"src":"fotos/112489260-6.jpg","c":"Dormitorio con armario"}]},{"op":"venta","tipo":"adosado","ref":"RP-112497170","idealista":"112497170","t":"Chalet adosado en Pelayo","loc":"Catarroja","price":550000,"hab":3,"ban":4,"m2":378,"tag":"Garaje incluido","dir":"Pelayo","zona":"Catarroja","pl":"3 plantas, con ascensor","ene":"B","est":"Segunda mano, buen estado","ano":"2010","d":"Vivienda unifamiliar adosada que combina confort, eficiencia energética y espacios versátiles. Son 378 m² construidos y 319 m² útiles distribuidos en tres plantas, sobre una parcela de 131 m².","d2":"Del año 2010 y en perfecto estado de conservación. Tres dormitorios amplios, con la habitación principal convertida en suite con baño privado y vestidor independiente, más dos baños completos y dos aseos. Ascensor propio y plaza de garaje incluida.","f":["Con ascensor","Terraza","Plaza de garaje incluida en el precio","Armarios empotrados","Construido en 2010","Calefacción individual eléctrica","Aire acondicionado"],"ph":[{"src":"fotos/112497170-1.jpg","c":"Terraza"},{"src":"fotos/112497170-2.jpg","c":"Entrada"},{"src":"fotos/112497170-3.jpg","c":"Zona de entrada"},{"src":"fotos/112497170-4.jpg","c":"Escalera"},{"src":"fotos/112497170-5.jpg","c":"Garaje"},{"src":"fotos/112497170-6.jpg","c":"Acceso al garaje"}]},{"op":"venta","tipo":"adosado","ref":"RP-112505096","idealista":"112505096","t":"Chalet adosado en Ciudadela","loc":"Centro - El Castillo, Sagunt","price":230000,"hab":4,"ban":2,"m2":150,"tag":"Terraza","dir":"Ciudadela","zona":"Centro - El Castillo, Sagunt","pl":"2 plantas","ene":"F","est":"Segunda mano, buen estado","ano":"2015","d":"Casa adosada unifamiliar en el casco de Sagunt, perfecta para familias que buscan comodidad y modernidad. Reformada recientemente, sus 150 m² construidos y 147 m² útiles combinan funcionalidad con un diseño contemporáneo.","d2":"Dispone de cuatro dormitorios amplios, uno de ellos suite principal con baño privado, además de dos baños completos perfectamente equipados. Se completa con terraza, trastero y aire acondicionado.","f":["Terraza","Trastero","Construido en 2015","Aire acondicionado"],"ph":[{"src":"fotos/112505096-1.jpg","c":"Patio"},{"src":"fotos/112505096-2.jpg","c":"Zona de lavadero"},{"src":"fotos/112505096-3.jpg","c":"Lavadero"},{"src":"fotos/112505096-4.jpg","c":"Terraza"},{"src":"fotos/112505096-5.jpg","c":"Terraza superior"},{"src":"fotos/112505096-6.jpg","c":"Salón"}]},{"op":"venta","tipo":"piso","ref":"RP-112558284","idealista":"112558284","t":"Piso en Santa Teresa","loc":"Algemesí","price":170000,"hab":3,"ban":2,"m2":106,"tag":"Terraza","dir":"Santa Teresa","zona":"Algemesí","pl":"1ª planta interior","ene":"F","est":"Segunda mano, buen estado","ano":"1989","d":"Piso de tres habitaciones amplias en el corazón de Algemesí, con 106 m² construidos y 104 m² útiles y una distribución pensada para disfrutar en familia.","d2":"La cocina americana conecta directamente con el salón, creando un espacio diáfano y luminoso. Se completa con terraza y balcón, armarios empotrados, trastero y aire acondicionado, en una finca con ascensor.","f":["Terraza y balcón","Armarios empotrados","Trastero","Construido en 1989","Con ascensor","Aire acondicionado"],"ph":[{"src":"fotos/112558284-1.jpg","c":"Salón comedor"},{"src":"fotos/112558284-2.jpg","c":"Comedor"},{"src":"fotos/112558284-3.jpg","c":"Zona de estar"},{"src":"fotos/112558284-4.jpg","c":"Salón"},{"src":"fotos/112558284-5.jpg","c":"Recibidor"},{"src":"fotos/112558284-6.jpg","c":"Cocina"}]},{"op":"venta","tipo":"piso","ref":"RP-112572200","idealista":"112572200","t":"Piso en Avenida de la Constitució","loc":"Els Orriols, València","price":268000,"hab":4,"ban":2,"m2":130,"tag":"Ascensor","dir":"Avenida de la Constitució","zona":"Els Orriols, València","pl":"3ª planta exterior","ene":"E","est":"Segunda mano, buen estado","ano":"1973","d":"Piso de cuatro dormitorios en la Avenida de la Constitució, en una zona con mucha vida, comercio, servicios y transporte público a pie de calle.","d2":"Son 130 m² construidos en una tercera planta exterior con ascensor, con dos baños, balcón, terraza y armarios empotrados en los dormitorios. Aire acondicionado frío y calor.","f":["Balcón","Armarios empotrados","Construido en 1973","Con ascensor","Aire acondicionado"],"ph":[{"src":"fotos/112572200-01.jpg","c":"Salón comedor"},{"src":"fotos/112572200-02.jpg","c":"Salón"},{"src":"fotos/112572200-03.jpg","c":"Zona de estar"},{"src":"fotos/112572200-04.jpg","c":"Salón y mesa de comedor"},{"src":"fotos/112572200-05.jpg","c":"Comedor"},{"src":"fotos/112572200-06.jpg","c":"Cocina"},{"src":"fotos/112572200-07.jpg","c":"Recibidor"},{"src":"fotos/112572200-08.jpg","c":"Entrada"},{"src":"fotos/112572200-09.jpg","c":"Pasillo"},{"src":"fotos/112572200-10.jpg","c":"Dormitorio principal"},{"src":"fotos/112572200-11.jpg","c":"Dormitorio doble"},{"src":"fotos/112572200-12.jpg","c":"Dormitorio con litera"},{"src":"fotos/112572200-13.jpg","c":"Litera y salida al pasillo"},{"src":"fotos/112572200-14.jpg","c":"Habitación con sofá"},{"src":"fotos/112572200-15.jpg","c":"Habitación · zona de estudio"},{"src":"fotos/112572200-16.jpg","c":"Habitación"},{"src":"fotos/112572200-17.jpg","c":"Habitación con salida al balcón"},{"src":"fotos/112572200-18.jpg","c":"Baño con bañera"},{"src":"fotos/112572200-19.jpg","c":"Baño con ducha"},{"src":"fotos/112572200-20.jpg","c":"Baño"},{"src":"fotos/112572200-21.jpg","c":"Galería"},{"src":"fotos/112572200-22.jpg","c":"Balcón"},{"src":"fotos/112572200-23.jpg","c":"Balcón trasero"}]},{"op":"venta","tipo":"piso","ref":"RP-112586614","idealista":"112586614","t":"Piso en Calle La Sirena","loc":"Silla","price":195000,"hab":2,"ban":1,"m2":103,"tag":"Garaje y trastero","dir":"Calle La Sirena","zona":"Silla","pl":"2ª planta exterior","ene":"G","est":"Segunda mano, buen estado","ano":"2007","d":"Piso de 103 m² construidos y 89 m² útiles en una segunda planta con ascensor, en la tranquila localidad de Silla. Construido en 2007, combina funcionalidad y confort en una distribución práctica y bien pensada.","d2":"Cuenta con dos dormitorios con armarios empotrados, un baño completo, terraza y balcón exterior. Aire acondicionado y calefacción por bomba de frío y calor. Además de la vivienda, dispone de plaza de garaje privada y trastero.","f":["Balcón","Armarios empotrados","Trastero","Plaza de garaje privada","Construido en 2007","Calefacción individual eléctrica","Con ascensor","Aire acondicionado"],"ph":[{"src":"fotos/112586614-01.jpg","c":"Salón comedor"},{"src":"fotos/112586614-02.jpg","c":"Salón comedor"},{"src":"fotos/112586614-03.jpg","c":"Salón"},{"src":"fotos/112586614-04.jpg","c":"Comedor"},{"src":"fotos/112586614-05.jpg","c":"Salón"},{"src":"fotos/112586614-06.jpg","c":"Salón"},{"src":"fotos/112586614-07.jpg","c":"Comedor"},{"src":"fotos/112586614-08.jpg","c":"Comedor con salida a la terraza"},{"src":"fotos/112586614-09.jpg","c":"Terraza acristalada"},{"src":"fotos/112586614-10.jpg","c":"Terraza acristalada"},{"src":"fotos/112586614-11.jpg","c":"Terraza acristalada"},{"src":"fotos/112586614-12.jpg","c":"Cocina"},{"src":"fotos/112586614-13.jpg","c":"Cocina"},{"src":"fotos/112586614-14.jpg","c":"Cocina"},{"src":"fotos/112586614-15.jpg","c":"Cocina"},{"src":"fotos/112586614-16.jpg","c":"Cocina · detalle"},{"src":"fotos/112586614-17.jpg","c":"Recibidor"},{"src":"fotos/112586614-18.jpg","c":"Pasillo y cocina"},{"src":"fotos/112586614-19.jpg","c":"Pasillo"},{"src":"fotos/112586614-20.jpg","c":"Dormitorio 1"},{"src":"fotos/112586614-21.jpg","c":"Dormitorio 1"},{"src":"fotos/112586614-22.jpg","c":"Dormitorio 1"},{"src":"fotos/112586614-23.jpg","c":"Dormitorio 1"},{"src":"fotos/112586614-24.jpg","c":"Dormitorio 1 · detalle"},{"src":"fotos/112586614-25.jpg","c":"Dormitorio 2"},{"src":"fotos/112586614-26.jpg","c":"Dormitorio 2"},{"src":"fotos/112586614-27.jpg","c":"Dormitorio 2"},{"src":"fotos/112586614-28.jpg","c":"Dormitorio 2"},{"src":"fotos/112586614-29.jpg","c":"Dormitorio 2"},{"src":"fotos/112586614-30.jpg","c":"Dormitorio 2 · detalle"},{"src":"fotos/112586614-31.jpg","c":"Baño"},{"src":"fotos/112586614-32.jpg","c":"Baño"},{"src":"fotos/112586614-33.jpg","c":"Baño · ducha"},{"src":"fotos/112586614-34.jpg","c":"Baño"},{"src":"fotos/112586614-35.jpg","c":"Baño · detalle"}]}];
+
+var TIPOS = {piso:"Piso", adosado:"Chalet adosado", chalet:"Chalet pareado", casa:"Casa o chalet independiente"};
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;") }
+var euro = function(n){return n.toLocaleString("es-ES")};
+var priceTxt = function(p){return p.op==="venta" ? euro(p.price)+" €" : euro(p.price)+" €<small> /mes</small>"};
+
+var IC = {
+  bed :'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-8h13a4 4 0 0 1 4 4v4M3 18v3M21 18v3M3 10V5"/><circle cx="7.5" cy="12.5" r="1.6"/></svg>',
+  bath:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 12V6a2 2 0 0 1 4 0"/><path d="M6 19l-1 2M18 19l1 2"/></svg>',
+  area:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 3v4M3 8h4M21 16h-4M16 21v-4"/></svg>',
+  pin :'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+  ok  :'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>',
+  near:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5l3 2"/></svg>',
+  prev:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
+  fav :'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.5 2.8c0 5.8-8.5 11.3-8.5 11.3z"/></svg>',
+  next:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>'
+};
+
+/* ============================================================
+   2 · PASARELA DE FOTOS
+   ============================================================ */
+/* En la tarjeta, si un inmueble tiene muchas fotos, se enseña un recorrido:
+   una foto de cada estancia (salón, cocina, dormitorio, baño, exterior, entrada).
+   Si no, la pasarela pasa por cinco fotos del mismo salón y parece que no se mueve.
+   La ficha completa sigue enseñando todas. */
+var ESTANCIAS = [
+  ["dia",       /^(salón|comedor|zona de estar)/i],
+  ["cocina",    /^cocina/i],
+  ["dormitorio",/^(dormitorio|habitación|litera|suite)/i],
+  ["baño",      /^baño/i],
+  ["exterior",  /^(terraza|balcón|galería|patio|porche|exterior|fachada|jardín|salida al patio|zona de lavadero|lavadero)/i],
+  ["entrada",   /^(recibidor|entrada|pasillo|distribuidor|escalera|zona de entrada)/i]
+];
+function mini(src){ return src.replace("fotos/", "fotos/t/") }   /* miniatura de la tarjeta */
+
+function portada(ph){
+  if(ph.length <= 8) return ph;
+  var sel = [];
+  ESTANCIAS.forEach(function(e){
+    var f = ph.filter(function(x){ return e[1].test(x.c) })[0];
+    if(f) sel.push(f);
+  });
+  return sel.length >= 3 ? sel : ph.slice(0, 6);
+}
+
+function buildCw(el, photos, opts){
+  opts = opts || {};
+  var i = 0, timer = null, paused = false, manual = false;
+
+  el.innerHTML =
+      photos.map(function(p,n){
+        /* la primera se carga ya; el resto cuando hagan falta */
+        /* tarjeta: miniatura de 720 px y todo en diferido (están por debajo de la portada);
+           ficha: foto grande, la primera al momento */
+        return '<img class="cw-s'+(n?"":" on")+'" src="'+(opts.mini ? mini(p.src) : p.src)+'" alt="'+esc((opts.titulo ? opts.titulo+". " : "")+p.c)+'"'
+             + (n || opts.mini ? ' loading="lazy"' : '') + ' decoding="async"'
+             + (opts.mini ? ' width="720" height="540">' : ' width="1100" height="825">');
+      }).join("")
+    + '<span class="cw-scrim"></span>'
+    + (photos.length > 1
+        ? '<button type="button" class="cw-nav prev" aria-label="Foto anterior">'+IC.prev+'</button>'
+        + '<button type="button" class="cw-nav next" aria-label="Foto siguiente">'+IC.next+'</button>'
+        : "")
+    + '<span class="cw-cap">'+photos[0].c+'</span>'
+    /* con muchas fotos, en la tarjeta no caben los puntos: se pone el contador */
+    + (opts.count || photos.length > 8 ? '<span class="cw-count">1 / '+photos.length+'</span>' : "")
+    /* puntos: hasta 8 fotos en la tarjeta y hasta 24 en la ficha; con más, solo el contador */
+    + (photos.length > 1 && photos.length <= (opts.count ? 24 : 8)
+        ? '<div class="cw-dots">'+photos.map(function(p,n){
+            return '<button type="button" class="'+(n?"":"on")+'" aria-label="Ver la foto '+(n+1)+': '+esc(p.c)+'"></button>';
+          }).join("")+'</div>'
+        : "");
+
+  var slides = $$(".cw-s", el), dots = $$(".cw-dots button", el);
+  var cap = $(".cw-cap", el), count = $(".cw-count", el);
+
+  function go(n){
+    if(photos.length < 2) return;
+    n = ((n % photos.length) + photos.length) % photos.length;
+    if(n === i) return;
+    slides[i].classList.remove("on"); slides[n].classList.add("on");
+    if(dots.length){ dots[i].classList.remove("on"); dots[n].classList.add("on") }
+    i = n;
+    cap.textContent = photos[i].c;
+    if(count) count.textContent = (i+1) + " / " + photos.length;
+  }
+  function start(){
+    stop();
+    if(RM || manual || photos.length < 2) return;   /* si el visitante ha pasado foto, manda él */
+    timer = setInterval(function(){ if(!paused && !document.hidden) go(i+1) }, opts.delay || 4400);
+  }
+  function stop(){ if(timer){ clearInterval(timer); timer = null } }
+
+  el.addEventListener("click", function(e){
+    var b = e.target.closest(".cw-nav, .cw-dots button");
+    if(!b) return;
+    e.preventDefault();
+    e.stopPropagation();               /* que no abra la ficha al pulsar las flechas */
+    if(b.classList.contains("prev")) go(i-1);
+    else if(b.classList.contains("next")) go(i+1);
+    else go(dots.indexOf(b));
+    manual = true; stop();
+  });
+  el.addEventListener("mouseenter", function(){ paused = true });
+  el.addEventListener("mouseleave", function(){ paused = false });
+  el.addEventListener("focusin",  function(){ paused = true });
+  el.addEventListener("focusout", function(){ paused = false });
+
+  var sx = 0, sy = 0, sw = false;
+  el.addEventListener("touchstart", function(e){ sx = e.touches[0].clientX; sy = e.touches[0].clientY; sw = true; paused = true }, {passive:true});
+  el.addEventListener("touchend", function(e){
+    if(!sw) return; sw = false; paused = false;
+    var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+    if(Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy)){ go(i + (dx < 0 ? 1 : -1)); manual = true; stop() }
+  }, {passive:true});
+
+  return {go:go, next:function(){go(i+1); manual = true; stop()}, prev:function(){go(i-1); manual = true; stop()}, start:start, stop:stop};
+}
+
+/* ============================================================
+   3 · REJILLA DE INMUEBLES
+   ============================================================ */
+var state = {op:"venta", tipo:"", q:"", precio:"", fav:false};
+
+/* ---------- favoritos: se guardan en el propio navegador del visitante ---------- */
+var FAV_KEY = "rpgroup_favoritos", favs = [];
+try{ favs = JSON.parse(localStorage.getItem(FAV_KEY)) || [] }catch(e){ favs = [] }
+function esFav(ref){ return favs.indexOf(ref) > -1 }
+function guardaFavs(){ try{ localStorage.setItem(FAV_KEY, JSON.stringify(favs)) }catch(e){} }
+function pintaFavs(){
+  $("#favN").textContent = favs.length;
+  $$(".fav").forEach(function(b){ b.setAttribute("aria-pressed", esFav(b.dataset.ref)) });
+  var pf = $(".js-fav");
+  if(pf && pvCur){
+    pf.setAttribute("aria-pressed", esFav(pvCur.ref));
+    pf.querySelector("span").textContent = esFav(pvCur.ref) ? "Guardada" : "Guardar";
+  }
+}
+function alternaFav(ref, boton){
+  var i = favs.indexOf(ref);
+  if(i > -1) favs.splice(i, 1); else favs.push(ref);
+  guardaFavs();
+  pintaFavs();
+  if(boton && favs.indexOf(ref) > -1){ boton.classList.remove("pop"); void boton.offsetWidth; boton.classList.add("pop") }
+  if(state.fav) render();                       /* si estamos viendo los guardados, se actualiza la lista */
+}
+function sinTildes(t){ return t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase() }
+var grid = $("#props"), cardCws = [], cwIO = null;
+
+function matches(p){
+  if(state.fav) return esFav(p.ref);            /* los guardados se ven sean de venta o de alquiler */
+  if(p.op !== state.op) return false;
+  if(state.tipo && p.tipo !== state.tipo) return false;
+  if(state.q){
+    var hay = sinTildes(p.loc+" "+p.t+" "+p.ref+" "+p.tag+" "+p.zona+" "+p.dir);
+    if(hay.indexOf(sinTildes(state.q)) === -1) return false;
+  }
+  if(state.precio){
+    var lim = {a:[250000,900], b:[400000,1200], c:[600000,1800]}[state.precio];
+    if(p.price > lim[p.op === "venta" ? 0 : 1]) return false;
+  }
+  return true;
+}
+
+function render(){
+  cardCws.forEach(function(c){ c.stop() });
+  cardCws = [];
+  if(cwIO) cwIO.disconnect();
+
+  var list = PROPS.filter(matches);
+  grid.innerHTML = "";
+
+  if(!list.length){
+    grid.innerHTML = state.fav
+      ? '<div class="no-res"><b>Todavía no has guardado ninguna vivienda</b>'
+        + '<p style="margin:0">Pulsa el corazón de cualquier inmueble y lo tendrás aquí la próxima vez que entres.</p></div>'
+      : '<div class="no-res"><b>No hay inmuebles con esos filtros</b>'
+        + '<p style="margin:0 0 1.2rem">Dinos qué estás buscando y lo localizamos por ti: trabajamos también con inmuebles que aún no están publicados.</p>'
+        + '<button class="btn btn--primary js-buscanos" type="button">Quiero que me lo busquéis</button></div>';
+    pintaFavs();
+    return;
+  }
+
+  list.forEach(function(p, n){
+    var el = document.createElement("article");
+    el.className = "prop reveal";
+    el.setAttribute("tabindex","0");
+    el.setAttribute("role","button");
+    el.setAttribute("aria-label", p.t + ", " + p.loc + ". Ver la ficha completa");
+    el.dataset.ref = p.ref;
+    el.style.transitionDelay = Math.min(n,6)*55 + "ms";
+    el.innerHTML =
+      '<div class="prop-art">'
+        + '<div class="cw"></div>'
+        + '<span class="badges"><span class="badge'+(p.op==="alquiler"?" rent":"")+'">'+(p.op==="venta"?"En venta":"En alquiler")+'</span>'
+        + '<span class="badge tag">'+p.tag+'</span></span>'
+        + '<button class="fav" type="button" data-ref="'+p.ref+'" aria-pressed="'+esFav(p.ref)+'" aria-label="Guardar '+p.t+' en favoritos">'+IC.fav+'</button>'
+      + '</div>'
+      + '<div class="prop-body">'
+        + '<div class="prop-price">'+priceTxt(p)+'</div>'
+        + '<h3>'+p.t+'</h3>'
+        + '<p class="prop-loc">'+IC.pin+p.loc+'</p>'
+        + '<div class="specs">'
+          + '<span>'+IC.bed+p.hab+' hab.</span>'
+          + '<span>'+IC.bath+p.ban+' baños</span>'
+          + '<span>'+IC.area+p.m2+' m²</span>'
+        + '</div>'
+        + '<span class="prop-more">Ver ficha completa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span>'
+      + '</div>';
+    grid.appendChild(el);
+
+    var host = $(".cw", el);
+    var cw = buildCw(host, portada(p.ph), {delay: 4400 + n*260, titulo: p.t, mini: true});
+    cw.host = host;
+    cardCws.push(cw);
+  });
+
+  /* arrancan ya; el observador solo las para cuando la tarjeta sale de pantalla */
+  cardCws.forEach(function(c){ c.start() });
+  if("IntersectionObserver" in window){
+    cwIO = new IntersectionObserver(function(ents){
+      ents.forEach(function(e){
+        var c = cardCws.filter(function(x){return x.host === e.target})[0];
+        if(!c) return;
+        if(e.isIntersecting && !pvOpen) c.start(); else c.stop();
+      });
+    }, {threshold:0.35});
+    cardCws.forEach(function(c){ cwIO.observe(c.host) });
+  }
+
+  pintaFavs();
+  observeNew();
+}
+
+/* ============================================================
+   4 · FICHA A PANTALLA COMPLETA
+   ============================================================ */
+var pv = $("#pview"), pvCw = null, pvOpen = false, pvBack = null, pvCur = null;
+
+function openProp(ref, deHistorial){
+  var p = PROPS.filter(function(x){return x.ref === ref})[0];
+  if(!p) return;
+  pvCur = p;
+
+  $("#pvRef").textContent = p.ref;
+  $("#pvPrice").innerHTML = priceTxt(p);
+  $("#pvTitle").textContent = p.t;
+  $("#pvDir").textContent = p.dir;
+  $("#pvZona").textContent = p.zona;
+  $("#pvMapTxt").firstChild.nodeValue = p.dir;
+  $("#pvMapSub").textContent = p.zona;
+
+  var b = $("#pvBadge");
+  b.textContent = p.op === "venta" ? "En venta" : "En alquiler";
+  b.className = "badge" + (p.op === "alquiler" ? " rent" : "");
+  $("#pvTag").textContent = p.tag;
+
+  $("#pvSpecs").innerHTML =
+      '<div><b>'+p.hab+'</b><span>Habitaciones</span></div>'
+    + '<div><b>'+p.ban+'</b><span>Baños</span></div>'
+    + '<div><b>'+p.m2+'</b><span>m² construidos</span></div>'
+    + '<div><b>'+(p.op === "venta" ? euro(Math.round(p.price/p.m2))+" €" : p.ene)+'</b><span>'
+      + (p.op === "venta" ? "por m²" : "cert. energético")+'</span></div>';
+
+  $("#pvDesc").innerHTML = "<p>"+p.d+"</p><p>"+p.d2+"</p>";
+  $("#pvFeats").innerHTML = p.f.map(function(f){return "<li>"+IC.ok+"<span>"+f+"</span></li>"}).join("");
+  $("#pvNear").innerHTML  = (p.cerca || []).map(function(c){return "<li>"+IC.near+"<span>"+c+"</span></li>"}).join("");
+
+  var datos = [
+    ["Referencia", p.ref],
+    ["Tipo de inmueble", TIPOS[p.tipo] || "Vivienda"],
+    ["Superficie construida", p.m2 + " m²"],
+    ["Distribución", p.pl],
+    ["Estado", p.est],
+    ["Año de construcción", p.ano],
+    ["Certificado energético", p.ene],
+    ["Referencia en idealista", p.idealista],
+    p.op === "venta"
+      ? ["Precio por m²", euro(Math.round(p.price/p.m2)) + " €"]
+      : ["", ""]
+  ];
+  /* los datos que el anuncio no publica no se muestran, en vez de salir vacíos */
+  datos = datos.filter(function(d){ return d[0] && d[1] });
+  $("#pvData").innerHTML = datos.map(function(d){
+    return "<li><span>"+d[0]+"</span><b>"+d[1]+"</b></li>";
+  }).join("");
+
+  if(pvCw) pvCw.stop();
+  pvCw = buildCw($("#pvCw"), p.ph, {count:true, delay:5600, titulo: p.t});
+
+  pvBack = document.activeElement;
+  pvOpen = true;
+  cardCws.forEach(function(c){ c.stop() });
+  pv.classList.add("open");
+  document.body.classList.add("is-locked");
+  $("#pvInfo").scrollTop = 0;
+  pvCw.start();
+  pintaFavs();
+  /* cada vivienda tiene su propia dirección: se puede compartir y el botón de volver la cierra */
+  if(!deHistorial) history.pushState({ref:ref}, "", "#" + ref);
+  setTimeout(function(){ var c = $(".pv-close"); if(c) c.focus() }, 80);
+}
+
+function closeProp(deHistorial){
+  if(!pvOpen) return;
+  if(!deHistorial){
+    if(history.state && history.state.ref){ history.back(); return }   /* volver atrás dispara el cierre */
+    if(location.hash) history.replaceState(null, "", location.pathname + location.search);
+  }
+  pv.classList.remove("open");
+  pvOpen = false;
+  if(pvCw) pvCw.stop();
+  if(!$(".ov.open")) document.body.classList.remove("is-locked");
+  cardCws.forEach(function(c){ c.start() });
+  if(pvBack && pvBack.focus) pvBack.focus();
+}
+$$(".js-pvclose").forEach(function(b){ b.addEventListener("click", function(){ closeProp() }) });
+
+/* el botón de volver del navegador cierra la ficha; abrir un enlace la muestra */
+window.addEventListener("popstate", function(){
+  var ref = decodeURIComponent((location.hash || "").replace("#", ""));
+  var p = PROPS.filter(function(x){ return x.ref === ref })[0];
+  if(p){ if(!pvOpen || !pvCur || pvCur.ref !== ref) openProp(ref, true) }
+  else if(pvOpen) closeProp(true);
+});
+
+/* guardar la vivienda desde la ficha */
+$(".js-fav").addEventListener("click", function(){ if(pvCur) alternaFav(pvCur.ref, this) });
+
+/* abrir la ficha: se ignora si el gesto ha sido un arrastre o un deslizamiento */
+var downX = 0, downY = 0;
+grid.addEventListener("pointerdown", function(e){ downX = e.clientX; downY = e.clientY }, {passive:true});
+grid.addEventListener("click", function(e){
+  if(Math.abs(e.clientX - downX) > 12 || Math.abs(e.clientY - downY) > 12) return;
+  var fav = e.target.closest(".fav");
+  if(fav){ e.stopPropagation(); alternaFav(fav.dataset.ref, fav); return }
+  var card = e.target.closest(".prop");
+  if(card) openProp(card.dataset.ref);
+});
+grid.addEventListener("keydown", function(e){
+  if(e.key !== "Enter" && e.key !== " ") return;
+  var card = e.target.closest(".prop");
+  if(card && e.target === card){ e.preventDefault(); openProp(card.dataset.ref) }
+});
+
+/* ============================================================
+   5 · FILTROS Y BUSCADOR
+   ============================================================ */
+/* Los topes de precio se enseñan según la pestaña: comprando, en euros;
+   alquilando, en euros al mes. Nunca los dos a la vez. */
+var TOPES = {
+  venta:    [["a","Hasta 250.000 €"], ["b","Hasta 400.000 €"], ["c","Hasta 600.000 €"]],
+  alquiler: [["a","Hasta 900 € al mes"], ["b","Hasta 1.200 € al mes"], ["c","Hasta 1.800 € al mes"]]
+};
+function etiquetaTope(clave){
+  var f = TOPES[state.op].filter(function(o){ return o[0] === clave })[0];
+  return f ? f[1].replace("Hasta ", "") : "";
+}
+function pintaPrecios(){
+  var sel = $("#precio"), elegido = sel.value;
+  sel.innerHTML = '<option value="">Sin límite</option>'
+    + TOPES[state.op].map(function(o){ return '<option value="'+o[0]+'">'+o[1]+'</option>' }).join("");
+  sel.value = elegido;                         /* se conserva el tramo ya elegido */
+}
+
+function setOp(op){
+  state.op = op;
+  state.fav = false;
+  pintaPrecios();
+  $$(".tab").forEach(function(t){ var on = t.dataset.op===op; t.classList.toggle("on",on); t.setAttribute("aria-selected",on) });
+  $$(".stab").forEach(function(t){ var on = t.dataset.op===op; t.classList.toggle("on",on); t.setAttribute("aria-selected",on) });
+  render();
+}
+$$(".tab, .stab").forEach(function(t){ t.addEventListener("click", function(){ setOp(t.dataset.op); $(".js-favfilter").setAttribute("aria-pressed","false") }) });
+
+$(".js-favfilter").addEventListener("click", function(){
+  state.fav = !state.fav;
+  this.setAttribute("aria-pressed", state.fav);
+  render();
+  if(state.fav) $("#inmuebles").scrollIntoView({behavior: RM ? "auto" : "smooth", block:"start"});
+});
+
+$$(".chip:not(.js-favfilter)").forEach(function(c){
+  c.addEventListener("click", function(){
+    $$(".chip:not(.js-favfilter)").forEach(function(x){x.classList.remove("on")});
+    c.classList.add("on");
+    state.tipo = c.dataset.tipo;
+    state.fav = false;
+    $(".js-favfilter").setAttribute("aria-pressed", "false");
+    render();
+  });
+});
+
+$("#search").addEventListener("submit", function(e){
+  e.preventDefault();
+  state.q = $("#q").value.trim();
+  state.tipo = $("#tipo").value;
+  state.precio = $("#precio").value;
+  $$(".chip").forEach(function(x){ x.classList.toggle("on", x.dataset.tipo === state.tipo) });
+  render();
+  var y = $("#inmuebles").getBoundingClientRect().top + window.pageYOffset - 76;
+  window.scrollTo({top:y, behavior: RM ? "auto" : "smooth"});
+});
+
+pintaPrecios();
+render();
+
+/* si se entra con el enlace de una vivienda (…#RP-1042), se abre sola */
+(function(){
+  var ref = decodeURIComponent((location.hash || "").replace("#", ""));
+  var p = PROPS.filter(function(x){ return x.ref === ref })[0];
+  if(!p) return;
+  if(p.op !== state.op) setOp(p.op);
+  setTimeout(function(){ openProp(p.ref, true) }, RM ? 0 : 1000);
+})();
+
+/* ============================================================
+   6 · CONTACTO
+   Los datos de contacto reales de RP Group. Cambiando estas tres
+   líneas se actualizan todos los envíos de los formularios.
+   ============================================================ */
+var WA      = "34666752862",                  /* WhatsApp con prefijo de país */
+    TEL_TXT = "666 752 862",
+    MAIL    = "info@rpgroupinmobiliaria.com";
+
+function abrir(url){
+  var w = window.open(url, "_blank", "noopener");
+  if(!w) window.location.href = url;              /* si el navegador bloquea la ventana */
+}
+function porWhatsApp(texto){ abrir("https://wa.me/" + WA + "?text=" + encodeURIComponent(texto)) }
+function porCorreo(asunto, texto){
+  window.location.href = "mailto:" + MAIL + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(texto);
+}
+function aviso(titulo, texto){
+  $("#demoTitle").textContent = titulo;
+  $("#demoMsg").textContent = texto;
+  openOv($("#ovDemo"));
+}
+function avisoEnviado(via){
+  if(via === "wa") aviso("Te hemos abierto WhatsApp",
+    "Tu mensaje ya está escrito con todos los datos: solo tienes que darle a enviar. Si no se ha abierto, escríbenos al " + TEL_TXT + ".");
+  else aviso("Te hemos abierto el correo",
+    "Tu mensaje ya está escrito con todos los datos: solo tienes que darle a enviar. Si no se ha abierto, escríbenos a " + MAIL + ".");
+}
+function lista(pares){
+  return pares.filter(function(p){ return p[1] })
+              .map(function(p){ return "• " + p[0] + ": " + p[1] }).join("\n");
+}
+
+/* ---------- gestión de capas (se pueden apilar: ficha → formulario → aviso) ---------- */
+var ovStack = [];
+var FINE = window.matchMedia && window.matchMedia("(hover:hover) and (pointer:fine)").matches;
+
+function topOv(){ return ovStack.length ? ovStack[ovStack.length-1].ov : null }
+function openOv(ov){
+  ovStack.push({ov:ov, back:document.activeElement});
+  ov.classList.add("open");
+  document.body.classList.add("is-locked");
+  var modal = ov.querySelector(".modal"); if(modal) modal.scrollTop = 0;
+  /* en ordenador el cursor va al primer campo; en móvil no, para no abrir el teclado de golpe */
+  var first = FINE ? ov.querySelector("form input:not([type=radio]):not([type=checkbox]), form select") : null;
+  setTimeout(function(){ (first || ov.querySelector(".m-close")).focus() }, 60);
+}
+function closeOv(ov){
+  var idx = -1;
+  ovStack.forEach(function(x,i){ if(x.ov === ov) idx = i });
+  var entry = idx > -1 ? ovStack.splice(idx,1)[0] : null;
+  ov.classList.remove("open");
+  if(!ovStack.length && !pvOpen && !$("#drawer").classList.contains("open")) document.body.classList.remove("is-locked");
+  if(entry && entry.back && entry.back.focus) entry.back.focus();
+}
+$$(".ov").forEach(function(ov){
+  ov.addEventListener("click", function(e){ if(e.target === ov) closeOv(ov) });
+  ov.querySelectorAll(".js-close").forEach(function(b){ b.addEventListener("click", function(){ closeOv(ov) }) });
+});
+
+/* ============================================================
+   7 · FORMULARIOS
+   Validan los datos y envían la solicitud por WhatsApp o por correo.
+   ============================================================ */
+function fieldOk(f){
+  if(f.hidden) return true;
+  var t = f.dataset.req;
+  if(t === "radio") return !!f.querySelector("input:checked");
+  if(t === "check") return f.querySelector("input[type=checkbox]").checked;
+  var i = f.querySelector("input, select, textarea");
+  if(!i || !i.required) return true;
+  var v = i.value.trim();
+  if(!v) return false;
+  if(i.type === "email") return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+  if(i.type === "tel"){
+    var d = v.replace(/\D/g, "");
+    if(d.length === 11 && d.indexOf("34") === 0) d = d.slice(2);
+    return /^[6789]\d{8}$/.test(d);
+  }
+  if(i.name === "nombre") return v.split(/\s+/).length >= 2;
+  if(i.name === "precio") return parseInt(v.replace(/\D/g, ""), 10) > 0;
+  return true;
+}
+function validate(form){
+  var bad = [];
+  $$(".field", form).forEach(function(f){
+    var ok = fieldOk(f);
+    f.classList.remove("err");
+    if(!ok){ void f.offsetWidth; f.classList.add("err"); bad.push(f) }
+  });
+  if(bad.length){
+    var el = bad[0].querySelector("input:not([type=radio]):not([type=checkbox]), select, textarea") || bad[0].querySelector("input");
+    bad[0].scrollIntoView({block:"center", behavior: RM ? "auto" : "smooth"});
+    if(el) setTimeout(function(){ el.focus({preventScroll:true}) }, RM ? 0 : 280);
+    return false;
+  }
+  return true;
+}
+function limpia(form){
+  form.reset();
+  $$(".field.err", form).forEach(function(f){ f.classList.remove("err") });
+}
+/* el error desaparece en cuanto el campo se corrige */
+["#valForm", "#visForm", "#leadForm"].forEach(function(s){
+  var form = $(s);
+  function recheck(e){
+    var f = e.target.closest(".field");
+    if(f && f.classList.contains("err") && fieldOk(f)) f.classList.remove("err");
+  }
+  form.addEventListener("input", recheck);
+  form.addEventListener("change", recheck);
+});
+var val = function(form, name){ var el = form.elements.namedItem(name); return el ? String(el.value || "").trim() : "" };
+var nombrePila = function(n){ return n.split(/\s+/)[0] };
+
+/* precio con separador de miles mientras se escribe */
+$("#v-precio").addEventListener("input", function(){
+  var d = this.value.replace(/\D/g, "").slice(0, 9);
+  this.value = d ? parseInt(d, 10).toLocaleString("es-ES") : "";
+});
+
+/* envía un formulario por WhatsApp o por correo, según el botón pulsado */
+function conecta(sel, asunto, redacta, alEnviar){
+  var form = $(sel);
+  function manda(via){
+    if(!validate(form)) return;
+    var texto = redacta(form);
+    if(via === "wa") porWhatsApp(texto); else porCorreo(asunto, texto);
+    if(alEnviar) alEnviar(form);
+    limpia(form);
+    avisoEnviado(via);
+  }
+  form.addEventListener("submit", function(e){ e.preventDefault(); manda("wa") });
+  $$(".js-mail", form).forEach(function(b){ b.addEventListener("click", function(){ manda("mail") }) });
+}
+
+/* --- valoración gratuita --- */
+conecta("#valForm", "Solicitud de valoración gratuita", function(f){
+  return "Hola RP Group, quiero una valoración gratuita de mi vivienda.\n\n" + lista([
+    ["Nombre",        val(f,"nombre")],
+    ["Teléfono",      val(f,"telefono")],
+    ["Correo",        val(f,"correo")],
+    ["Localidad",     val(f,"localidad")],
+    ["Tipo",          val(f,"tipo")],
+    ["Habitaciones",  val(f,"hab")],
+    ["Baños",         val(f,"ban")],
+    ["Precio deseado", val(f,"precio") + " €"]
+  ]);
+});
+
+/* --- solicitar visita --- */
+function openVisit(){
+  if(!pvCur) return;
+  $("#visArt").src = mini(pvCur.ph[0].src);
+  $("#visArt").alt = pvCur.t;
+  $("#visProp").textContent = pvCur.t;
+  $("#visRef").textContent = pvCur.ref + " · " + pvCur.loc + " · " + priceTxt(pvCur).replace(/<[^>]+>/g, "");
+  var form = $("#visForm");
+  if(form.dataset.ref !== pvCur.ref){ limpia(form); form.dataset.ref = pvCur.ref }
+  /* "¿necesitas vender para comprar?" solo tiene sentido en inmuebles en venta */
+  $("#visVender").hidden = pvCur.op !== "venta";
+  openOv($("#ovVisit"));
+}
+conecta("#visForm", "Solicitud de visita", function(f){
+  var dias = $$("input[name=dias]:checked", f).map(function(x){ return x.value }).join(", ");
+  var vender = $("#visVender").hidden ? "" : val(f, "vender");
+  return "Hola RP Group, quiero visitar este inmueble.\n\n" + lista([
+    ["Inmueble",  pvCur ? pvCur.t + " (" + pvCur.ref + ")" : ""],
+    ["Zona",      pvCur ? pvCur.loc : ""],
+    ["Precio",    pvCur ? priceTxt(pvCur).replace(/<[^>]+>/g, "") : ""],
+    ["Nombre",    val(f,"nombre")],
+    ["Correo",    val(f,"correo")],
+    ["Días",      dias],
+    ["Horario",   val(f,"franja")],
+    ["Necesito vender para comprar", vender]
+  ]);
+}, function(f){ delete f.dataset.ref });
+
+/* --- consulta del formulario de contacto --- */
+conecta("#leadForm", "Consulta desde la web", function(f){
+  return "Hola RP Group, os escribo desde la web.\n\n" + lista([
+    ["Nombre",      val(f,"nombre")],
+    ["Teléfono",    val(f,"telefono")],
+    ["Correo",      val(f,"correo")],
+    ["Me interesa", val(f,"interes")],
+    ["Zona",        val(f,"zona")],
+    ["Mensaje",     val(f,"mensaje")]
+  ]);
+});
+
+/* ---------- qué abre cada botón ---------- */
+document.addEventListener("click", function(e){
+  if(e.target.closest(".js-val")){   e.preventDefault(); openOv($("#ovVal")); return }
+  if(e.target.closest(".js-visit")){ e.preventDefault(); openVisit(); return }
+  if(!e.target.closest(".js-buscanos")) return;
+  e.preventDefault();
+  var tipos = {piso:"un piso", adosado:"un chalet adosado", chalet:"un chalet pareado", casa:"una casa o chalet independiente"};
+  porWhatsApp("Hola RP Group, busco " + (tipos[state.tipo] || "una vivienda")
+    + (state.op === "venta" ? " en venta" : " en alquiler")
+    + (state.q ? " en " + state.q : "")
+    + (state.precio ? " hasta " + etiquetaTope(state.precio) : "")
+    + ". ¿Podéis ayudarme?");
+});
+
+/* ---------- teclado: Esc, flechas de la ficha y foco atrapado en la capa abierta ---------- */
+document.addEventListener("keydown", function(e){
+  var open = topOv();
+  if(e.key === "Escape"){
+    if(open){ closeOv(open); return }
+    if(pvOpen){ closeProp(); return }
+    var dr = $("#drawer"); if(dr.classList.contains("open")) toggleDrawer(false);
+    return;
+  }
+  if(e.key === "Tab"){
+    var box = open || (pvOpen ? pv : null);
+    if(!box) return;
+    var f = $$("a[href], button:not([disabled]), input:not([type=hidden]), select, textarea", box).filter(function(x){
+      return x.getClientRects().length > 0;          /* visible (incluye los position:fixed) */
+    });
+    if(!f.length) return;
+    var a = f[0], z = f[f.length-1];
+    if(!box.contains(document.activeElement)){ e.preventDefault(); a.focus(); return }
+    if(e.shiftKey && document.activeElement === a){ e.preventDefault(); z.focus() }
+    else if(!e.shiftKey && document.activeElement === z){ e.preventDefault(); a.focus() }
+    return;
+  }
+  if(pvOpen && !open && pvCw){
+    var tag = (document.activeElement && document.activeElement.tagName) || "";
+    if(/INPUT|SELECT|TEXTAREA/.test(tag)) return;
+    if(e.key === "ArrowRight"){ e.preventDefault(); pvCw.next(); pvCw.start() }
+    if(e.key === "ArrowLeft"){  e.preventDefault(); pvCw.prev(); pvCw.start() }
+  }
+});
+
+/* ============================================================
+   8 · CABECERA, MENÚ Y SCROLL
+   ============================================================ */
+var nav = $("#nav"), up = $("#up"), heroBg = $("#heroBg");
+var secs = $$("section[id]");
+
+function onScroll(){
+  var y = window.pageYOffset;
+  nav.classList.toggle("solid", y > 60);
+  up.classList.toggle("on", y > 700);
+  if(heroBg && !RM && y < window.innerHeight*1.2){
+    heroBg.style.transform = "translate3d(0," + (y*0.28) + "px,0)";
+  }
+  var cur = "";
+  secs.forEach(function(s){ if(s.getBoundingClientRect().top <= 130) cur = s.id });
+  $$(".nav-links a").forEach(function(a){ a.classList.toggle("active", a.getAttribute("href") === "#"+cur) });
+}
+window.addEventListener("scroll", function(){ window.requestAnimationFrame(onScroll) }, {passive:true});
+onScroll();
+
+up.addEventListener("click", function(){ window.scrollTo({top:0, behavior: RM ? "auto" : "smooth"}) });
+
+var drawer = $("#drawer"), burger = $("#burger");
+function toggleDrawer(open){
+  drawer.classList.toggle("open", open);
+  burger.setAttribute("aria-expanded", open);
+  drawer.setAttribute("aria-hidden", !open);
+  document.body.classList.toggle("is-locked", open);
+  if(open) $$("#drawer a").forEach(function(a,i){ a.style.transitionDelay = (0.16 + i*0.055) + "s" });
+}
+burger.addEventListener("click", function(){ toggleDrawer(!drawer.classList.contains("open")) });
+$("#drawerClose").addEventListener("click", function(){ toggleDrawer(false) });
+$$("#drawer a").forEach(function(a){ a.addEventListener("click", function(){ toggleDrawer(false) }) });
+
+/* ============================================================
+   9 · ANIMACIONES
+   ============================================================ */
+var io = null, ioVivo = false;
+function revelaTodo(){ $$(".reveal, .reveal-x, .reveal-s, .mask").forEach(function(el){ el.classList.add("in") }) }
+if("IntersectionObserver" in window && !RM){
+  io = new IntersectionObserver(function(entries){
+    ioVivo = true;
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target) }
+    });
+  }, {threshold:0.12, rootMargin:"0px 0px -60px 0px"});
+  $$(".reveal, .reveal-x, .reveal-s, .mask").forEach(function(el){ io.observe(el) });
+  /* si el navegador no entrega el observador, nada puede quedarse invisible */
+  setTimeout(function(){ if(!ioVivo){ io.disconnect(); io = null; revelaTodo() } }, 3500);
+}else{
+  revelaTodo();
+}
+function observeNew(){
+  var els = $$(".reveal:not(.in), .reveal-s:not(.in)", grid);
+  if(io) els.forEach(function(el){ io.observe(el) });
+  else els.forEach(function(el){ el.classList.add("in") });
+}
+
+["svc-grid","trust-grid","steps"].forEach(function(cls){
+  $$("."+cls).forEach(function(g){
+    Array.prototype.slice.call(g.children).forEach(function(ch,i){ ch.style.transitionDelay = (i*0.075)+"s" });
+  });
+});
+
+document.addEventListener("pointerdown", function(e){
+  var b = e.target.closest(".btn, .nav-tel, .tab, .stab, .chip");
+  if(!b || RM) return;
+  var r = b.getBoundingClientRect();
+  var d = Math.max(r.width, r.height);
+  var s = document.createElement("span");
+  s.className = "ripple";
+  s.style.width = s.style.height = d + "px";
+  s.style.left = (e.clientX - r.left - d/2) + "px";
+  s.style.top  = (e.clientY - r.top  - d/2) + "px";
+  b.appendChild(s);
+  setTimeout(function(){ s.remove() }, 640);
+});
+
+var counters = $$("[data-count]");
+if(counters.length && "IntersectionObserver" in window){
+  var cio = new IntersectionObserver(function(en){
+    en.forEach(function(x){
+      if(!x.isIntersecting) return;
+      cio.unobserve(x.target);
+      var el = x.target, end = parseFloat(el.dataset.count), dec = parseInt(el.dataset.dec||0,10);
+      var fin = end.toFixed(dec).replace(".", ",");
+      if(RM){ el.textContent = fin; return; }
+      el.textContent = (0).toFixed(dec).replace(".", ",");
+      var t0 = Date.now(), dur = 1400, id = setInterval(function(){
+        var k = Math.min((Date.now()-t0)/dur, 1);
+        el.textContent = (end*(1 - Math.pow(1-k,3))).toFixed(dec).replace(".", ",");
+        if(k >= 1){ clearInterval(id); el.textContent = fin; }
+      }, 40);
+      setTimeout(function(){ clearInterval(id); el.textContent = fin; }, dur + 400);
+    });
+  }, {threshold:0.5});
+  counters.forEach(function(c){ cio.observe(c) });
+}
+
+/* ============================================================
+   10 · HORARIO EN VIVO — de lunes a viernes, 9:30–14:00 y 16:00–20:00.
+        Sábado y domingo cerrado.
+   ============================================================ */
+var TRAMOS = [[570,840],[960,1200]];
+var DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+function abre(d){ return d >= 1 && d <= 5 }
+function hhmm(min){
+  return String(Math.floor(min/60)).padStart(2,"0") + ":" + String(min%60).padStart(2,"0");
+}
+function estado(){
+  var n = new Date(), hoy = n.getDay(), m = n.getHours()*60 + n.getMinutes();
+  if(abre(hoy)){
+    for(var i=0;i<TRAMOS.length;i++){
+      if(m >= TRAMOS[i][0] && m < TRAMOS[i][1]){
+        var falta = TRAMOS[i][1] - m;
+        return {open:true, txt: falta <= 45 ? "Abierto · cierra en "+falta+" min" : "Abierto ahora"};
+      }
+    }
+    if(m < TRAMOS[1][0]){                                  /* todavía abre hoy */
+      var prox = m < TRAMOS[0][0] ? TRAMOS[0][0] : TRAMOS[1][0];
+      var d = prox - m, h = Math.floor(d/60), mi = d%60;
+      var falta = (h ? h+" h" : "") + (mi ? (h ? " " : "")+mi+" min" : "");
+      return {open:false, txt:"Cerrado · abrimos a las " + hhmm(prox) + (h < 3 ? " (en "+falta+")" : "")};
+    }
+  }
+  var salto = 1;                                           /* al siguiente día laborable */
+  while(!abre((hoy + salto) % 7)) salto++;
+  var cuando = (salto === 1 && abre(hoy)) ? "mañana" : "el " + DIAS[(hoy + salto) % 7];
+  return {open:false, txt:"Cerrado · abrimos " + cuando + " a las " + hhmm(TRAMOS[0][0])};
+}
+function pintaHorario(){
+  var e = estado();
+  ["#openNow","#openNow2"].forEach(function(s){ var el=$(s); if(el) el.textContent = e.txt });
+  ["#dotLive","#dotLive2"].forEach(function(s){ var el=$(s); if(el) el.classList.toggle("off", !e.open) });
+  var hoy = new Date().getDay();
+  $$("#hoursList li").forEach(function(li){ li.classList.toggle("now", li.dataset.d.split(",").indexOf(String(hoy)) > -1) });
+}
+pintaHorario();
+setInterval(pintaHorario, 30000);
+
+$("#year").textContent = new Date().getFullYear();
+
+/* ============================================================
+   11 · PANTALLA DE ENTRADA
+   ============================================================ */
+var boot = $("#boot"), bn = $("#bootName");
+bn.innerHTML = bn.textContent.split("").map(function(c,i){
+  return '<span style="animation-delay:'+(0.28 + i*0.045)+'s">' + (c === " " ? "&nbsp;" : c) + "</span>";
+}).join("");
+function hideBoot(){ boot.classList.add("done"); setTimeout(function(){ boot.remove() }, 800) }
+if(RM){ hideBoot() }
+else{
+  window.addEventListener("load", function(){ setTimeout(hideBoot, 700) });
+  setTimeout(hideBoot, 2600);
+}
+})();
+</script>
+</body>
+</html>
