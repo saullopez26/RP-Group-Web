@@ -21,7 +21,10 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Oficina de RP Group Inmobiliaria en València">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="logo.jpg">
+<!-- Icono de la web: es el que muestra Google junto al enlace en los resultados -->
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" as="image" href="img/portada.jpg" imagesrcset="img/portada-movil.jpg 750w, img/portada.jpg 1300w" imagesizes="100vw" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fuentes/manrope.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fuentes/fraunces.woff2" crossorigin>
@@ -35,7 +38,7 @@
   "name":"RP Group Inmobiliaria",
   "description":"Agencia inmobiliaria en València: compraventa, alquileres, valoraciones gratuitas, asesoramiento personalizado, gestión integral y broker inmobiliario.",
   "url":"https://rpgroupinmobiliaria.es/",
-  "logo":"https://rpgroupinmobiliaria.es/og.jpg",
+  "logo":"https://rpgroupinmobiliaria.es/icon-512.png",
   "image":"https://rpgroupinmobiliaria.es/og.jpg",
   "telephone":"+34666752862",
   "email":"info@rpgroupinmobiliaria.com",
@@ -235,9 +238,9 @@ p{margin:0 0 1.1em}
 .nav-tel svg{width:16px;height:16px}
 .burger{display:none;width:44px;height:44px;border-radius:50%;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.4)}
 .nav.solid .burger{background:var(--beige);border-color:var(--line)}
-.burger i{display:block;width:19px;height:1.8px;background:#fff;border-radius:2px}
+.burger i{display:block;width:16px;height:1.6px;background:#fff;border-radius:2px}
 .nav.solid .burger i{background:var(--ink)}
-.burger i+i{margin-top:5px}
+.burger{place-content:center;gap:3.5px}
 @media(max-width:1040px){.nav-links{display:none}.burger{display:grid}}
 @media(max-width:560px){.nav-tel span{display:none}.nav-tel{padding:.66rem .8rem}}
 
@@ -252,10 +255,13 @@ p{margin:0 0 1.1em}
   opacity:0;transform:translateY(20px);transition:opacity .5s var(--ease),transform .5s var(--ease),color .3s;
   border-bottom:1px solid rgba(255,255,255,.12);
 }
+.drawer .wrap{display:flex;flex-direction:column}
+.drawer a{display:block;padding:.55rem 0}
 .drawer.open a{opacity:1;transform:none}
 .drawer a:hover{color:var(--sand)}
 .dr-foot{margin-top:1.7rem;color:rgba(255,255,255,.68);font-size:.92rem;display:grid;gap:.45rem}
 .dr-foot b{color:#fff}
+.dr-foot a{font-family:inherit;font-size:1.15rem;padding:0;border:0}
 .drawer-close{position:absolute;top:24px;right:24px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:#fff;font-size:1.4rem;line-height:1}
 
 /* ============================================================
@@ -1230,7 +1236,7 @@ fieldset.field legend{display:block;font-size:.72rem;letter-spacing:.13em;text-t
       <p class="eyebrow">Quiénes somos</p>
       <h2>Una inmobiliaria <em>cercana, transparente y profesional</em></h2>
       <p class="lead">RP Group es una agencia inmobiliaria con sede en la Avinguda Rambleta de Catarroja. Trabajamos la compraventa y el alquiler de pisos y casas en la ciudad y en los pueblos de l&#39;Horta Sud. Los encargos se formalizan en exclusiva o sin ella, según lo prefiera cada propietario: es una decisión suya, no un requisito nuestro.</p>
-      <p style="color:var(--muted)">Escríbenos por WhatsApp, rellena un formulario o entra directamente en la oficina: los tres caminos acaban igual, sentado con la persona que va a llevar tu operación. Y es la misma de principio a fin: quien te enseña la vivienda es quien negocia y quien te acompaña a la notaría, así que no tienes que volver a explicar tu caso cada vez que llamas.</p>
+      <p style="color:var(--muted)">La R y la P de RP Group son nuestras iniciales: somos <b style="color:var(--ink)">Rafa y Pau</b>, sus fundadores. Escríbenos por WhatsApp, rellena un formulario o entra directamente en la oficina: los tres caminos acaban igual, sentado con la persona que va a llevar tu operación. Y es la misma de principio a fin: quien te enseña la vivienda es quien negocia y quien te acompaña a la notaría, así que no tienes que volver a explicar tu caso cada vez que llamas.</p>
 
       <!--FACTS-->
       <div class="facts">
