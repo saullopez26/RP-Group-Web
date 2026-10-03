@@ -94,6 +94,9 @@
   --beige:#F1ECE2;
   --beige-2:#E6DFD1;
   --sand:#D9D1C0;
+  /* los dos cremas de los simbolos de los servicios, sacados de las propias imagenes */
+  --icono-fondo:#EFE8D8;
+  --icono-disco:#E3DAC8;
 
   --white:#fff;
   --muted:#6E6C5F;
@@ -396,21 +399,32 @@ section{position:relative}
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
 @media(max-width:980px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.svc-grid{grid-template-columns:1fr}}
+/* La tarjeta lleva el mismo crema que el fondo de los simbolos, para que el
+   simbolo no parezca pegado encima sino parte de la propia tarjeta. */
 .svc{
-  position:relative;overflow:hidden;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-l);
-  padding:2rem 1.8rem 1.9rem;transition:transform .55s var(--ease),box-shadow .55s var(--ease),border-color .4s;
+  position:relative;overflow:hidden;background:var(--icono-fondo);border:1px solid rgba(35,36,25,.05);
+  border-radius:var(--r-l);padding:2.4rem 1.9rem 2.1rem;
+  transition:transform .55s var(--ease),box-shadow .55s var(--ease),border-color .4s;
 }
 .svc::before{content:"";position:absolute;inset:auto auto 0 0;width:100%;height:3px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
 .svc:hover{transform:translateY(-7px);box-shadow:var(--shadow-l);border-color:transparent}
 .svc:hover::before{transform:scaleX(1)}
-.svc-ic{width:76px;height:76px;border-radius:21px;background:var(--beige);display:grid;place-items:center;color:var(--green-700);margin-bottom:1.25rem;transition:background-color .45s,color .45s,transform .55s var(--ease)}
-.svc:hover .svc-ic{background:var(--green-900);color:#fff;transform:rotate(-6deg) scale(1.06)}
-.svc-ic i{display:block;width:48px;height:48px;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;transition:background-color .45s}
+/* el disco de detras es el que ya trae el dibujo, un tono mas hondo que la tarjeta */
+.svc-ic{
+  width:104px;height:104px;border-radius:50%;background:var(--icono-disco);
+  box-shadow:inset 0 0 0 1px rgba(35,36,25,.05);
+  display:grid;place-items:center;color:var(--green-900);margin-bottom:1.6rem;
+  transition:background-color .5s,color .5s,transform .6s var(--ease),box-shadow .5s;
+}
+.svc:hover .svc-ic{background:var(--green-900);color:var(--icono-fondo);box-shadow:inset 0 0 0 1px transparent;transform:scale(1.05)}
+.svc-ic i{display:block;width:58px;height:58px;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;transition:background-color .5s}
 @supports ((-webkit-mask-image:url(i.png)) or (mask-image:url(i.png))){.svc-ic i{background-color:currentColor}}
-.svc h3{margin-bottom:.45rem}
+.svc h3{color:var(--green-900);margin-bottom:.45rem}
 .svc p{color:var(--muted);font-size:.96rem;margin:0}
-.svc-n{position:absolute;top:1.5rem;right:1.7rem;font-family:var(--font-display);font-size:2.6rem;color:var(--beige-2);line-height:1;transition:color .45s}
-.svc:hover .svc-n{color:var(--sand)}
+.svc-n{position:absolute;top:1.7rem;right:1.9rem;font-family:var(--font-display);font-size:3rem;color:#DFD6C2;line-height:1;transition:color .45s}
+.svc:hover .svc-n{color:var(--green);opacity:.55}
+@media(max-width:600px){.svc{padding:2.1rem 1.6rem 1.8rem}.svc-ic{width:92px;height:92px;margin-bottom:1.3rem}.svc-ic i{width:52px;height:52px}}
+
 /* ---------- inmuebles ---------- */
 .tabs{display:inline-flex;gap:.3rem;background:var(--beige);padding:.35rem;border-radius:100px;border:1px solid var(--line-2)}
 .tab{
